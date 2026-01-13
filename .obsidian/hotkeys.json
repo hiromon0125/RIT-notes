@@ -1,0 +1,21 @@
+{
+  "file-explorer:new-file": [],
+  "create-note-in-folder:Current Folder": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "create-note-in-folder:quickSwitcher-creator": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ],
+  "file-explorer:new-file-in-new-pane": []
+}
