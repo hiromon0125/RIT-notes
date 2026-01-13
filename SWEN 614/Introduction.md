@@ -1,0 +1,31 @@
+
+key principles of cloud computing
+- pooled resources
+	- cloud providers are pooled together to service multiple consumers
+	- multi-tenancy for enviornment where there are multiple occupants
+	- Each server is shared by multiple people
+- virtualization
+	- vital to cloud as physical servers consume significant space fro power and cooling
+	- each server is partitioned into many virtual servers serving multiple applications
+- Elasticity
+	- Dynamically grow with respect to required requests
+	- Autoscaling number of servers
+	- at peak usage we can scale up or increase the number of servers to increase amount of users that could be used online at the same time.
+- Automation
+	- ability to provision and deploy a new instance of a machine and free or deprovision an instance when finished using
+- Metered billing
+	- pay for what you use
+	- no annual contract and no commitment for a specific level of consumption
+- Cloud Deployment Models
+	- owned, managed, and operated by organizations
+	- can be onsite or offsite
+	- usually selected when external mandates as regulations and legislative 
+- Private Cloud
+	- heavily regulated with total control
+- Public Cloud
+	- available for all of us
+- Community Cloud
+	- Shared infrastructure among multiple organizations
+	- enhaced security measures to protect shared infrastructure and data standards
+- Hybrid Cloud
+	- Composition of private, public, and or community
