@@ -1,3 +1,5 @@
+1/12/2026 
+![[Intro Cloud Computing.pdf]]
 
 key principles of cloud computing
 - pooled resources
@@ -25,3 +27,4 @@ key principles of cloud computing
 
 ***IF YOU ARE NOT USING A RESOURCE, TURN IT ==OFF==***
 
+continue to [[Cloud Deployment Models]]

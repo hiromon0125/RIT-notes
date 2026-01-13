@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "376759c69cdf87ec",
+        "id": "12addf1624017ac4",
         "type": "tabs",
         "children": [
           {
-            "id": "6f8f8ebb9edee043",
+            "id": "de01d1579276db29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SWEN 614/Introduction.md",
+                "file": "SWEN 614/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "README"
+            }
+          },
+          {
+            "id": "dc21539935201789",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SWEN 614/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SWEN 614/Introduction.md",
+                "file": "SWEN 614/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Introduction"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -113,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SWEN 614/Introduction.md",
+                "file": "SWEN 614/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Introduction"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -156,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SWEN 614/Introduction.md",
+                "file": "SWEN 614/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Introduction"
+              "title": "Outline of README"
             }
           },
           {
@@ -194,16 +209,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6f8f8ebb9edee043",
+  "active": "dc21539935201789",
   "lastOpenFiles": [
-    "README.md",
-    "SWEN 614/Introduction.md",
+    "SWEN 614/Cloud Introduction.md",
+    "SWEN 614/Untitled.md",
+    "Untitled.md",
+    "SWEN 614/README.md",
+    "CSCI 620/README.md",
+    "SWEN 732/README.md",
     "SWEN 614/Cloud Deployment Models.md",
-    "Untitled 1.md",
+    "README.md",
     "SWEN 614/lectures/Intro Cloud Computing.pdf",
     "SWEN 614/lectures",
-    "SWEN 732/README.md",
-    "CSCI 620/README.md",
     "CSCI 620",
     "SWEN 614",
     "SWEN 732"
