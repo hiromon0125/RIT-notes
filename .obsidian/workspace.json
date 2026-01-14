@@ -27,30 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSCI 620/Conceptual Model.md",
+                "file": "CSCI 620/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Conceptual Model"
-            }
-          },
-          {
-            "id": "35ff3d090464779f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSCI 620/Logical Model.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Logical Model"
+              "title": "README"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -223,12 +209,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "35ff3d090464779f",
+  "active": "2d3b0b39f294c583",
   "lastOpenFiles": [
-    "CSCI 620/Logical Model.md",
     "CSCI 620/Conceptual Model.md",
-    "Untitled.md",
+    "1 - Relational model.md",
     "CSCI 620/README.md",
+    "CSCI 620/lectures/1 - Relational model.pdf",
+    "CSCI 620/lectures",
+    "CSCI 620/Logical Model.md",
+    "Untitled.md",
     "SWEN 732/README.md",
     "SWEN 614/README.md",
     "SWEN 614/Cloud Introduction.md",
