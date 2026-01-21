@@ -116,6 +116,7 @@
       {
         "id": "052b4637d3b99a49",
         "type": "tabs",
+        "dimension": 71.30242825607064,
         "children": [
           {
             "id": "d124be27a330bc0e",
@@ -155,6 +156,23 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f5ec134d3a44e02a",
+        "type": "tabs",
+        "dimension": 28.697571743929362,
+        "children": [
+          {
+            "id": "ae4f63e67b9f707f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ]
@@ -239,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SWEN 614/README.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -247,19 +265,9 @@
               "icon": "lucide-list",
               "title": "Outline of README"
             }
-          },
-          {
-            "id": "ae4f63e67b9f707f",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -277,7 +285,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d124be27a330bc0e",
+  "active": "d5104fe82e67de4c",
   "lastOpenFiles": [
     "CSCI 620/README.md",
     "CSCI 620/lecture-2/From conceptual to logical.md",
