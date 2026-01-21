@@ -9,4 +9,11 @@ Lecture Slide 1
 5. [[MISC]]
 6. [[Conclusion]]
 
-
+Lecture Slide 2
+[[2 - Data querying.pdf]]
+1. [[Introduction]]
+2. [[Aggregation and string operations]]  
+3. [[Join, set and nested queries]]  
+4. [[Query execution]]  
+5. [[Programmatic access]]  
+6. [[Conclusions]]

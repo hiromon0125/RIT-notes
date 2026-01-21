@@ -33,5 +33,5 @@
 ## 4. Hybrid Cloud
 - Composition of private, public, and or community
 - connected to provide additional capacity or other computing resources
-- able to support "cloud bursting" where additional capacity is added on when not available on the private cloud
+- able to support "**cloud bursting**" where additional capacity is added on when not available on the private cloud
 
