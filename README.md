@@ -7,5 +7,3 @@ Courses:
 - [[SWEN 732/README|SWEN-732]]
 - [[HSPT 165/README|HSPT-165]]
 
-
-
