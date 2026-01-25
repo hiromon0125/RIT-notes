@@ -26,14 +26,19 @@ Service Models
 ![[Pasted image 20260114185229.png|300]]
 
 ## SaaS
-- Most mature service
+- Software as a service
+- The most mature service
 - products that are generally prebuilt and consumed using the provided functionality without significant customization
 - Sometimes not realized that SaaS is being used
 - Example
-	- Microsoftware product(?)
+	- Microsoft Office 365
+		- subscription
+		- all applications accessible through the browser
+		- data is stored on onedrive
 	- Shopify
 		- Build your own estore
 		- shopping cart, catalog, payment integration
+		- staples is built with shopify
 - Key Characteristics
 	- Needs to be generalized enough so that many customers will be interested
 	- Blends navigation and ease of use so customers are able to use it well
@@ -41,28 +46,36 @@ Service Models
 	- Secure that users do not see each other's data
 
 ## PaaS
-- Provide services that can be used to be customized for specific application like Vercel, google engine, etc.
+- Platform as a Service
+- Provide services that can be used to be customized for specific application like google app engine, Vercel, SalesForce, elastic beanstalk, etc.
+- As a customer of PaaS, they dont need to manage or interact with the virtual OS and System information. 
+- Instead they can concentrate on writing the application
 - PaaS Providers manage underlying complexity of the platform
-	- The problem with PaaS could be Vendor lock-in
-	- Where if the provider goes down your application is also going down
-	- vendors can increase costs
-	- Harder to move off of the platform if wanting to modernize
-	- PaaS also chooses the supported application language
-- (?)
+
+### Con of PaaS
+- Vendor lock-in
+- Where if the provider goes down your application is also going down
+- vendors can increase costs
+- Harder to move off of the platform if wanting to modernize
+- PaaS also chooses the supported application language
 
 ## IaaS
-Online services that provide high-level APIs used to dereference various low-level details of underlying network infrastructure 
 
-Upside
+- Infrastructure as a service
+- Online services that provide high-level APIs used to dereference various low-level details of underlying network infrastructure 
+- allows customer the complete control over how applications, languages and fundamental resources are managed
+- Also allows services like DB, Storage, and networking resources.
+- Customer just rents computing resoruces instead of buying and installing them in their own data center
+- IaaS providers supplies virtual machine images of different operating system flavors(?)
+
+### Pros of IaaS
 - Price because you can rent servers and everything from managing and purchasing servers are already handled
 - Security is better
 	- IaaS providers can provide certification for regulations and protect against internet attacks
 - Faster to manage
 
 IaaS cloud providers
-![[Pasted image 20260114192520.png]]
-
-
+![[Pasted image 20260114192520.png|500]]
 ## Control vs Value
 biggest question to ask is buy vs. build
 

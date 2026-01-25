@@ -2,8 +2,8 @@
 ## Course Topics
 
 1. [[Cloud Introduction]]  
-2. Service Models  
-3. Virtualization  
+2. [[Service Models]]  
+3. [[Virtualization]]  
 4. AWS Overview  
 5. Infrastructure as Code  
 6. DevOps & Pipelines  
