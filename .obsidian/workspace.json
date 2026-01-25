@@ -4,40 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a60ba36e7cb75b59",
+        "id": "89b57d8d157cb919",
         "type": "tabs",
         "children": [
           {
-            "id": "a18f088919431662",
+            "id": "cc35fc6219f8767a",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "CSCI 620/lecture-2/Introduction.md",
-                "bFile": "CSCI 620/lecture-2/Introduction.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "HSPT 165/Wine terminologies.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Introduction  (Index)"
-            }
-          }
-        ]
-      },
-      {
-        "id": "e1a92d3d17338acf",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7dcceb8e9b00a560",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SWEN 614/lectures/Service Models.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Service Models"
+              "icon": "lucide-file",
+              "title": "Wine terminologies"
             }
           }
         ]
@@ -193,12 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "HSPT 165/Wine terminologies.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Wine terminologies"
             }
           }
         ],
@@ -220,12 +202,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a18f088919431662",
+  "active": "cc35fc6219f8767a",
   "lastOpenFiles": [
+    "HSPT 165/Wine and Food matrix.md",
+    "HSPT 165/README.md",
+    "HSPT 165/Wine terminologies.md",
+    "SWEN 614/lectures/Service Models.pdf",
     "SWEN 614/README.md",
     "SWEN 614/Virtualization.md",
     "SWEN 614/Service models.md",
-    "SWEN 614/lectures/Service Models.pdf",
     "SWEN 614/Cloud Deployment Models.md",
     "CSCI 620/lecture-2/From conceptual to logical.md",
     "SWEN 614/lectures/Intro Cloud Computing.pdf",
@@ -235,13 +220,10 @@
     "CSCI 620/README.md",
     "CSCI 620/lecture-2/Introduction.md",
     "README.md",
-    "HSPT 165/Wine and Food matrix.md",
     "CSCI 620/lecture-2",
     "CSCI 620/images/Pasted image 20260121112017.png",
     "CSCI 620/images",
     "CSCI 620/images/Pasted image 20260121112240.png",
-    "HSPT 165/README.md",
-    "HSPT 165/Wine terminologies.md",
     "CSCI 620/lecture-1/MISC.md",
     "HSPT 165",
     "CSCI 620/lecture-1/Conceptual Model.md",
