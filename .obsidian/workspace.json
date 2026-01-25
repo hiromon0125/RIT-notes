@@ -11,14 +11,12 @@
             "id": "cc35fc6219f8767a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "HSPT 165/Wine terminologies.md",
-                "mode": "source",
-                "source": false
+                "file": "SWEN 614/old-lectures/Architecting for the Cloud.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Wine terminologies"
+              "icon": "lucide-file-text",
+              "title": "Architecting for the Cloud"
             }
           }
         ]
@@ -174,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HSPT 165/Wine terminologies.md",
+                "file": "SWEN 614/old-lectures/Architecting for the Cloud.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Wine terminologies"
+              "title": "Outline of Architecting for the Cloud"
             }
           }
         ],
@@ -204,40 +202,40 @@
   },
   "active": "cc35fc6219f8767a",
   "lastOpenFiles": [
+    "SWEN 614/old-lectures/Virtualization.pdf",
+    "SWEN 614/Virtualization.md",
+    "SWEN 614/Cloud Deployment Models.md",
+    "SWEN 614/README.md",
+    "SWEN 614/old-lectures/Understanding Cloud Costs.pdf",
+    "SWEN 614/old-lectures/Terraform Advanced.pdf",
+    "SWEN 614/old-lectures/Service Models.pdf",
+    "SWEN 614/old-lectures/Security.pdf",
+    "SWEN 614/old-lectures/Resiliency.pdf",
+    "SWEN 614/old-lectures/Microservice and Serverless.pdf",
+    "SWEN 614/old-lectures/Intro Cloud Computing.pdf",
+    "SWEN 614/old-lectures/Infrastructure as Code.pdf",
+    "SWEN 614/old-lectures/Gen AI on the Cloud.pdf",
+    "SWEN 614/Cloud Introduction.md",
+    "SWEN 614/Service models.md",
     "HSPT 165/Wine and Food matrix.md",
     "HSPT 165/README.md",
     "HSPT 165/Wine terminologies.md",
-    "SWEN 614/lectures/Service Models.pdf",
-    "SWEN 614/README.md",
-    "SWEN 614/Virtualization.md",
-    "SWEN 614/Service models.md",
-    "SWEN 614/Cloud Deployment Models.md",
     "CSCI 620/lecture-2/From conceptual to logical.md",
-    "SWEN 614/lectures/Intro Cloud Computing.pdf",
-    "TOC.base",
     "CSCI 620/lecture-2/Aggregation and string operations.md",
-    "CSCI 620/lectures/2 - Data querying.pdf",
     "CSCI 620/README.md",
     "CSCI 620/lecture-2/Introduction.md",
     "README.md",
-    "CSCI 620/lecture-2",
     "CSCI 620/images/Pasted image 20260121112017.png",
-    "CSCI 620/images",
     "CSCI 620/images/Pasted image 20260121112240.png",
     "CSCI 620/lecture-1/MISC.md",
-    "HSPT 165",
     "CSCI 620/lecture-1/Conceptual Model.md",
-    "CSCI 620/lecture-1",
     "CSCI 620/lecture-1/Logical Model.md",
     "CSCI 620/Conclusion.md",
     "CSCI 620/lecture-1/Physical Model.md",
-    "CSCI 620/lectures/1 - Relational model.pdf",
     "SWEN 614/images/Pasted image 20260114192520.png",
     "SWEN 614/images/Pasted image 20260114192702.png",
-    "SWEN 614/images",
     "SWEN 614/images/Pasted image 20260114185229.png",
     "1 - Relational model.md",
-    "SWEN 732/README.md",
-    "SWEN 614/Cloud Introduction.md"
+    "SWEN 732/README.md"
   ]
 }
