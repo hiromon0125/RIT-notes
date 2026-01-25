@@ -11,14 +11,15 @@
             "id": "a18f088919431662",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "SWEN 614/README.md",
-                "mode": "source",
-                "source": false
+                "aFile": "CSCI 620/lecture-2/Introduction.md",
+                "bFile": "CSCI 620/lecture-2/Introduction.md",
+                "aRef": "HEAD",
+                "bRef": ""
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "diff",
+              "title": "Diff: Introduction  (Index)"
             }
           }
         ]
@@ -192,13 +193,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SWEN 614/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline"
             }
           }
         ],
@@ -222,8 +222,8 @@
   },
   "active": "a18f088919431662",
   "lastOpenFiles": [
-    "SWEN 614/Virtualization.md",
     "SWEN 614/README.md",
+    "SWEN 614/Virtualization.md",
     "SWEN 614/Service models.md",
     "SWEN 614/lectures/Service Models.pdf",
     "SWEN 614/Cloud Deployment Models.md",
