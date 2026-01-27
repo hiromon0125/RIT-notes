@@ -1,4 +1,5 @@
-
+1/21/2026
+![[SWEN 614/lectures/Virtualization.pdf|Virtualization]]
 
 ## Motivations of using cloud computing
 
@@ -12,6 +13,8 @@
 	3. moving from datacenter to cloud is increasing CapEx. 
 3. improved resource utilization and allocation
 	1. traditional data center vs cloud
+
+
 
 ## Datacenters vs Cloud
 
@@ -58,6 +61,7 @@ after
 
 ## Hypervisor
 
+Virtual machine manager(VMM)
 Hosted:
 - can run multiple OS but doesn't have to access to hardware
 - more overhead
@@ -73,23 +77,43 @@ Native:
 
 ## What can be virtualized
 
-anything could be virtualized like storage server, ??
+anything could be virtualized like 
+- storage server
+- server virtualization
+- desktop virtualization
+- application virtualization
+- network virtualization
 ## Advantages of virtualization
-- server consolidation
-- infra optimization
-- (?)
-- (?)
-- (?)
+- Server consolidation
+	- Reduce hardware, power, and maintenance costs
+	- simplifies server management and minimizes physical infra footprint
+- Infra optimization
+	- Dynamically allocates compute, memory, and storage based on workload demands
+	- Enables resource scaling without disrupting other running virtual machines
+- Flexibility and scalability
+	- Provides the ability to create, clone, and deploy new VMs rapidly
+	- easily add or remove VMs without the need for additional physical hardware
+- More efficient IT operations
+	- Streamlines software updates, maintenance, and network management
+	- Improves backup and disaster recovery through fast failover to standby VMs
 
 Upgrading servers can be easily be done on the cloud.
-Any time the server has to be shutdown causes downtime.
+Any time the server has to be shutdown causes downtime for traditional methods, but virtualization allows almost no downtime.
 
 ## Disadvantages of virtualization
 
 - upfront cost and complexity
+	- initial setup can require investment in virtualization infra, including robust hardware, storage, and licensing for hypervisors or management tools
+	- Requires planning and technical expertise to configure and optimize virtual environments effectively
 - performance overhead
+	- Certain high-performance or latency-sensitive workloads may still benefit fro dedicated physical hardware
+	- Resource contention between virtual machines can affect performance if not properly managed
 - licensing and compliance challenges
+	- Licensing models can be complex in virtual env
+	- tracking and managing compliance across dynamic virtualized system can be more difficult
 - security and isolation risks
+	- virtual env introduce new attack surfaces, including hypervisor vulnerabilities and VM sprawl(?)
+	- ensuring strong isolation between VMs and consistent patching across hats is critical to maintain security
 
 
 
