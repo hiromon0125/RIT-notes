@@ -13,30 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SWEN 614/Virtualization.md",
+                "file": "HSPT 165/Pairing 2 -- Popcorn x Wine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Virtualization"
-            }
-          }
-        ]
-      },
-      {
-        "id": "0c6c06a4fdc08266",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "fd371dc85124bea2",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SWEN 614/lectures/Virtualization.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Virtualization"
+              "title": "Pairing 2 -- Popcorn x Wine"
             }
           }
         ]
@@ -192,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SWEN 614/Virtualization.md",
+                "file": "HSPT 165/Pairing 2 -- Popcorn x Wine.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Virtualization"
+              "title": "Outline of Pairing 2 -- Popcorn x Wine"
             }
           }
         ],
@@ -223,9 +205,21 @@
   },
   "active": "cc35fc6219f8767a",
   "lastOpenFiles": [
-    "SWEN 614/lectures/Virtualization.pdf",
-    "SWEN 614/Virtualization.md",
+    "HSPT 165/Pairing 1.md",
+    "HSPT 165/Pairing 2 -- Popcorn x Wine.md",
+    "HSPT 165/Wine terminologies.md",
+    "CSCI 620/lecture-1/Logical Model.md",
+    "CSCI 620/lecture-1/Physical Model.md",
+    "CSCI 620/lectures/1 - Relational model.pdf",
+    "CSCI 620/lecture-2/Aggregation and string operations.md",
+    "CSCI 620/lecture-2/From conceptual to logical.md",
+    "CSCI 620/lecture-2/Introduction.md",
+    "CSCI 620/README.md",
     "CSCI 620/lectures/2 - Data querying.pdf",
+    "TOC.base",
+    "README.md",
+    "SWEN 614/Virtualization.md",
+    "SWEN 614/lectures/Virtualization.pdf",
     "SWEN 614/README.md",
     "SWEN 614/old-lectures/Virtualization.pdf",
     "SWEN 614/old-lectures/Architecting for the Cloud.pdf",
@@ -234,25 +228,14 @@
     "SWEN 614/old-lectures/Terraform Advanced.pdf",
     "SWEN 614/old-lectures/Service Models.pdf",
     "SWEN 614/old-lectures/Security.pdf",
-    "SWEN 614/old-lectures/Resiliency.pdf",
-    "SWEN 614/old-lectures/Microservice and Serverless.pdf",
     "SWEN 614/Cloud Introduction.md",
     "SWEN 614/Service models.md",
-    "HSPT 165/Wine and Food matrix.md",
     "HSPT 165/README.md",
-    "HSPT 165/Wine terminologies.md",
-    "CSCI 620/lecture-2/From conceptual to logical.md",
-    "CSCI 620/lecture-2/Aggregation and string operations.md",
-    "CSCI 620/README.md",
-    "CSCI 620/lecture-2/Introduction.md",
-    "README.md",
     "CSCI 620/images/Pasted image 20260121112017.png",
     "CSCI 620/images/Pasted image 20260121112240.png",
     "CSCI 620/lecture-1/MISC.md",
     "CSCI 620/lecture-1/Conceptual Model.md",
-    "CSCI 620/lecture-1/Logical Model.md",
     "CSCI 620/Conclusion.md",
-    "CSCI 620/lecture-1/Physical Model.md",
     "SWEN 614/images/Pasted image 20260114192520.png",
     "SWEN 614/images/Pasted image 20260114192702.png",
     "SWEN 614/images/Pasted image 20260114185229.png",

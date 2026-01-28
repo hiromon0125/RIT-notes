@@ -3,5 +3,5 @@ Pages:
 - [[Wine terminologies]]
 
 lectures
-- [[Wine and Food matrix]] -- 1/21/2026
+- [[Pairing 1]] -- 1/21/2026
 - 
