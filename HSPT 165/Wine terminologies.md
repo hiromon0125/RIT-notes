@@ -118,12 +118,20 @@ Sometimes this can be guessed based on alcohol levels like for white wine.
 For red:
 - light body: skim milk
 - medium body: 2% milk? moderate weight to the mouth
-- high/full body: is whole milk
+- full body: is whole milk
 
 For whites its usually just differentiated via alcohol level
 - Light-bodied: Under 12.5% ABV, crisp and refreshing
 - Medium-bodied: 12.5–13.5% ABV, balanced and smooth
 - Full-bodied: Over 13.5% ABV, rich and creamy
+
+
+|        | White      | Red                | Food             |
+| ------ | ---------- | ------------------ | ---------------- |
+| Light  | Riesling   | Pinot Noir         | Sole(White Fish) |
+| Medium | Sauvignon  | Merlot             | Hamburger        |
+| Full   | Chardonnay | Cabernet Sauvignon | Steak            |
+
 
 ## Chardonnay
 
