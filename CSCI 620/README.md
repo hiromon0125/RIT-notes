@@ -22,7 +22,7 @@ Lecture Slide 3
 [[3 - Document.pdf]]
 1. [[CSCI 620/lecture-3/Introduction|Introduction]] 
 2. [[Documents]] 
-3. Basic querying 
-4. Advanced querying 
+3. [[Basic querying]] 
+4. [[Advanced querying ]]
 5. Installation and programmatic access 
 6. Conclusions

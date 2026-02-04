@@ -5,9 +5,9 @@
 2. [[Service Models]]  
 3. [[Virtualization]]  
 4. AWS Overview  
-5. Infrastructure as Code  
+5. [[Infrastructure as Code ]] 
 6. DevOps & Pipelines  
-7. Terraform  
+7. [[Introduction to Terraform]]  
 8. Understanding Cloud Costs  
 9. Auto-Scaling  
 10. Containerization & Orchestration  

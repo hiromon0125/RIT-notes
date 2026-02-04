@@ -27,65 +27,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSCI 620/lecture-3/Documents.md",
+                "file": "CSCI 620/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Documents"
+              "title": "README"
             }
           },
           {
-            "id": "2b843f507d67a9a4",
+            "id": "2558af09ef75dcbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSCI 620/lecture-3/Introduction.md",
+                "file": "CSCI 620/lecture-3/Advanced querying.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
-            }
-          },
-          {
-            "id": "584c91861a965f2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSCI 620/lecture-3/Introduction.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Introduction"
-            }
-          },
-          {
-            "id": "50992615a87feacd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSCI 620/lecture-3/Documents.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Documents"
+              "title": "Advanced querying"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
-        "id": "ef657026d58d9abe",
+        "id": "ea412749c9b9442a",
         "type": "tabs",
         "children": [
           {
-            "id": "7595c98000d33b65",
+            "id": "0ad96b3bf7dfe0ef",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -108,7 +80,7 @@
       {
         "id": "052b4637d3b99a49",
         "type": "tabs",
-        "dimension": 71.30242825607064,
+        "dimension": 54.52538631346579,
         "children": [
           {
             "id": "d124be27a330bc0e",
@@ -155,7 +127,7 @@
       {
         "id": "f5ec134d3a44e02a",
         "type": "tabs",
-        "dimension": 28.697571743929362,
+        "dimension": 45.47461368653421,
         "children": [
           {
             "id": "ae4f63e67b9f707f",
@@ -171,7 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5
+    "width": 246.5
   },
   "right": {
     "id": "8db1428f3a7fbcfc",
@@ -249,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSCI 620/lecture-3/Documents.md",
+                "file": "CSCI 620/lecture-3/Advanced querying.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Documents"
+              "title": "Outline of Advanced querying"
             }
           }
         ],
@@ -263,8 +235,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 230.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -278,28 +249,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ba5e56686d9f739c",
+  "active": "2558af09ef75dcbc",
   "lastOpenFiles": [
-    "CSCI 620/README.md",
-    "CSCI 620/lecture-3/Introduction.md",
-    "CSCI 620/lecture-3/Documents.md",
-    "CSCI 620/lecture-3/Untitled.md",
-    "CSCI 620/lecture-2/Introduction.md",
     "CSCI 620/lectures/3 - Document.pdf",
-    "CSCI 620/lecture-3",
+    "CSCI 620/lecture-3/Advanced querying.md",
+    "CSCI 620/README.md",
     "SWEN 614/README.md",
-    "CSCI 620/lectures/2 - Data querying.pdf",
-    "SWEN 614/Cloud Networking Basics.md",
-    "Pasted image 20260128193112.png",
-    "Pasted image 20260128192420.png",
-    "Pasted image 20260128192402.png",
+    "CSCI 620/lecture-3/Documents.md",
+    "CSCI 620/lecture-3/Introduction.md",
+    "SWEN 614/lectures/Intro Cloud Computing.pdf",
+    "SWEN 614/lectures/Service Models.pdf",
+    "SWEN 614/lectures/Virtualization.pdf",
     "SWEN 614/lectures/AWS Overview.pdf",
+    "SWEN 614/images/Pasted image 20260114185229.png",
+    "SWEN 614/images/Pasted image 20260114192520.png",
+    "SWEN 614/images/Pasted image 20260114192702.png",
+    "SWEN 614/Infrastructure as Code.md",
+    "SWEN 614/Introduction to Terraform.md",
+    "SWEN 614/Cloud Networking Basics.md",
+    "CSCI 620/lecture-3/Basic Querying.md",
+    "README.md",
+    "Pasted image 20260128192402.png",
+    "Pasted image 20260128192420.png",
+    "Pasted image 20260128193112.png",
+    "CSCI 620/lecture-2/Introduction.md",
+    "CSCI 620/lecture-3",
+    "CSCI 620/lectures/2 - Data querying.pdf",
     "SWEN 614/old-lectures/Architecting for the Cloud.pdf",
     "SWEN 614/old-lectures/Autoscaling.pdf",
     "SWEN 614/old-lectures/AWS Intro 1.pdf",
-    "SWEN 614/old-lectures/AWS Intro 2.pdf",
-    "SWEN 614/old-lectures/Big Data Concepts - Hadoop & Spark.pdf",
-    "SWEN 614/old-lectures/Big Data Concepts - Spark & Streaming.pdf",
     "SWEN 614/Cloud Deployment Models.md",
     "HSPT 165/Pairing 2 -- Popcorn x Wine.md",
     "HSPT 165/images/wine-glass-types.png",
@@ -313,17 +291,10 @@
     "CSCI 620/lecture-1/Physical Model.md",
     "CSCI 620/lecture-2/Aggregation and string operations.md",
     "CSCI 620/lecture-2/From conceptual to logical.md",
-    "README.md",
     "SWEN 614/Virtualization.md",
     "SWEN 614/Cloud Introduction.md",
     "SWEN 614/Service models.md",
-    "CSCI 620/images/Pasted image 20260121112017.png",
-    "CSCI 620/images/Pasted image 20260121112240.png",
     "CSCI 620/lecture-1/MISC.md",
-    "CSCI 620/lecture-1/Conceptual Model.md",
-    "CSCI 620/Conclusion.md",
-    "SWEN 614/images/Pasted image 20260114192520.png",
-    "1 - Relational model.md",
-    "SWEN 732/README.md"
+    "CSCI 620/lecture-1/Conceptual Model.md"
   ]
 }
