@@ -1,3 +1,4 @@
+![[SWEN 614/lectures/Infrastructure as Code.pdf|Infrastructure as Code]]
 
 ## AWS CLI
 
@@ -25,13 +26,22 @@ ls
 aws s3 ls
 ```
 rm
-(?)
+```bash
+aws s3 rb s3://bucket-name
+```
 cp
-(?)
+```bash
+aws s3 cp filename s3://bucket-name/
+```
 
 ### SDK
 Programmatically create instances
+python's SDK: AWS boto3
 
+### Expanding Software Infrastructure
+- For smaller setups, CLI and SDK might be enough to quickly provision and easy to manage.
+- For larger setups, we might need more complex setups and require provisioning multiple AWS resources beyond EC2 and S3. This can be increasingly more difficult to manage.
+- We can't manually stop every resource each day, so a more reliable way to tear down and recreate everyday would be nice.
 
 ## Infrastructure as Code
 
@@ -92,10 +102,10 @@ Tools
 
 #### Providers
 - a plugin that interacts with the various APIs required to create, update, and delete resources
-- each provider adds a set of (?)
+- each provider adds a set of resource types and data sources that terraform can mange
 
 #### Resources
-- most important element
+- most important element in the language
 - it describe what you want in the configuration
 - describes one of more infrastructure objects, such as storage, virtual networks or compute instances
 
@@ -112,7 +122,7 @@ Tools
 
 #### Locals
 - values enable the creation of expressions or values that can be easily referenced within the terraform module
-- eliminate the duplication of hard coded values (?)
+- eliminate the duplication of hard coded values that are used multiple times throughout the project
 
 #### Output Values
 - information about your infrastructure available on the command line, and can expose information for other terraform configurations to use

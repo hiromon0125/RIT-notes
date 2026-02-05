@@ -5,4 +5,5 @@ Pages:
 lectures
 - [[Pairing 1]] -- 1/21/2026
 - [[Pairing 2 -- Popcorn x Wine]] -- 1/28/2026
-- 
+- [[Pairing 3 -- Cheese and Prosciutto]] -- 2/4/2026
+

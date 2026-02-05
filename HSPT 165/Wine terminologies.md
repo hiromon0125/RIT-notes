@@ -135,9 +135,50 @@ For whites its usually just differentiated via alcohol level
 
 ## Chardonnay
 
-Chardonnay is a green-skinned grape variety primarily used to produce white wine.
-Started in Burgundy region of France but now grown world wide.
-
+- Chardonnay is a green-skinned grape variety primarily used to produce white wine.
+- Started in Burgundy region of France but now grown world wide.
+- Also very common and planted everywhere in the world
+	- Can also be planted in any climate
+	- best in a mildly warm climate
+- One of the most bland wine in the world but could be most varying wine.
 ### Oaked and Unoaked
 1. Oaked Chardonnay will develop buttery taste and converts to high acidic flavoring, adds vanilla, toast, baking spices, caramel, and nutty tones, creating a fuller body.
 2. Unoaked Chardonnay will stay stay crisp and bright, highlighting green apple, citrus, pear, and mineral notes like chalk or flint without butter or wood influence
+
+
+## Flavors of Wine
+
+### Acidity
+- increase in sugar can make the drink more acidic
+	- Acidity turbocharges taste(similar to lemon being added as a side to add into a dish)
+	- combining two acidity can mallow 
+- Cooler climate can also increase acidity
+- terms:
+	- 
+### fruity 
+- Cooler to warmer climate can change the fruity flavor
+- Red wine(Cooler to warmer):
+	- Apple
+	- Pear
+	- Kiwi
+	- Citrus
+	- Peach
+	- Melon
+	- Mango
+	- Pineapple
+- White wine:
+	- Cranberry
+	- Cherry
+	- Raspberry
+	- Plum
+	- Blueberry
+	- Blackberry
+	- Fig
+
+### Oak
+- oak comes from a wine-making process
+- some could 
+- smaller barrel can increase Oak
+- larger increases surface area
+
+Sugar also smooths out the wine
