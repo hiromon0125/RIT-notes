@@ -64,18 +64,18 @@ would result in
 ```json
 {$match: {<query>}}
 ```
-filters data
+filters data, for example
 ```js
 db.bills.aggregate( [ 
-	{ $match : { “address.zipcode” : “14534” } } 
+	{ $match : { "address.zipcode" : “14534” } } 
 ] )
 ```
 
 ## Group operation
 ```json
 {$group: {
-	_id: <expression>, 
-	<field1>: { <accumulator1: <expression1> }, 
+	_id: "<expression>", 
+	"<field1>": { "<accumulator1>": "<expression1>" }, 
 	...
 }}
 ```
@@ -84,4 +84,57 @@ for example
 {$group: { _id: "$cust_id", total: {$sum: "$amount"}}}
 ```
 group by customer id and sum the amount attribute.
+
+
+
+## Lookup fields
+
+```json
+{
+	$lookup: {
+		from: "‹collection to join›",
+		localField: "<field from the input documents>",
+		foreignField: '‹field from the documents of the "from" collection›',
+		as: "‹output array field>"
+	}
+}
+```
+
+- Similar to joins in SQL.
+- "from" is collection name
+- "localField" is current collection's attribute to search with
+- "foreignField" is from_collection's attribute to match with
+- "as" field name of the results to put it as. Note that the result is always an array.
+
+
+## Unwind operation
+
+Expands array field
+
+```json
+{$unwind: "<field path"}
+```
+
+Say inventory collection:
+```json
+{
+"_id": 1, "item": "ABC1", "sizes": ["S", "M", "L"]
+}
+```
+and aggregate via
+```js
+db.inventory.addregate( [ { $unwind: "$sizes" } ] )
+```
+
+Result in 
+```json
+{"_id": 1, "item": "ABC1", "sizes": "S"},
+{"_id": 1, "item": "ABC1", "sizes": "M"},
+{"_id": 1, "item": "ABC1", "sizes": "L"}
+```
+
+
+## Optimization with lookup operations
+
+If you have a pipeline that given 
 

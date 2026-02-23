@@ -26,3 +26,12 @@ Lecture Slide 3
 4. [[Advanced querying ]]
 5. Installation and programmatic access 
 6. Conclusions
+
+Lecture Slide 4
+[[4 - Preparation.pdf]]
+1. [[Descriptive statistics]] 
+2. [[Charts]] 
+3. [[Scaling]] 
+4. [[Binning]] 
+5. Fixing data issues (integration) 
+6. Conclusions

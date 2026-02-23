@@ -7,11 +7,11 @@
 4. AWS Overview
 5. [[Cloud Networking Basics]]
 6. [[Infrastructure as Code ]] 
-7. DevOps & Pipelines  
+7. [[DevOps & Pipelines]]
 8. [[Terraform]]  
-9. Understanding Cloud Costs  
-10. Auto-Scaling  
-11. Containerization & Orchestration  
+9. [[Understanding Cloud Costs  ]]
+10. [[Auto-Scaling]]  
+11. [[Containerization & Orchestration]]  
 12. APIs in the Cloud  
 13. Microservices/Serverless Computing  
 14. Cloud Databases  

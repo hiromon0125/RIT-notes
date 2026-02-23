@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "905aad5a8c1eda05",
+        "id": "491ce527b6d266d6",
         "type": "tabs",
         "children": [
           {
-            "id": "2558af09ef75dcbc",
+            "id": "f8b8757e4ee8332d",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "SWEN 614/images/Pasted image 20260128192402.png"
+                "file": "SWEN 614/images/Screenshot 2026-02-18 at 18.53.09.png"
               },
               "icon": "lucide-image",
-              "title": "Pasted image 20260128192402"
+              "title": "Screenshot 2026-02-18 at 18.53.09"
             }
           }
         ]
@@ -31,7 +31,7 @@
       {
         "id": "052b4637d3b99a49",
         "type": "tabs",
-        "dimension": 54.52538631346579,
+        "dimension": 64.34878587196468,
         "children": [
           {
             "id": "d124be27a330bc0e",
@@ -78,7 +78,7 @@
       {
         "id": "f5ec134d3a44e02a",
         "type": "tabs",
-        "dimension": 45.47461368653421,
+        "dimension": 35.65121412803532,
         "children": [
           {
             "id": "ae4f63e67b9f707f",
@@ -172,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SWEN 614/images/Pasted image 20260128192402.png",
+                "file": "SWEN 614/AWS Overview.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20260128192402"
+              "title": "Outline of AWS Overview"
             }
           }
         ],
@@ -203,50 +203,50 @@
   },
   "active": "d124be27a330bc0e",
   "lastOpenFiles": [
-    "SWEN 614/images/Pasted image 20260128192420.png",
-    "SWEN 614/images/Pasted image 20260128192402.png",
-    "SWEN 614/images/Pasted image 20260128193112.png",
-    "SWEN 614/images/Pasted image 20260204190944.png",
-    "SWEN 614/images/Pasted image 20260204190955.png",
-    "SWEN 614/images/Pasted image 20260204191024.png",
+    "CSCI 620/lecture-4/Binning.md",
+    "CSCI 620/lecture-4/Scaling.md",
+    "CSCI 620/lecture-4/Charts.md",
+    "SWEN 614/Containerization & Orchestration.md",
+    "SWEN 614/images/Screenshot 2026-02-18 at 18.53.09.png",
     "SWEN 614/README.md",
-    "SWEN 614/Cloud Networking Basics.md",
-    "SWEN 614/lectures/Cloud Networking.pdf",
-    "SWEN 614/Terraform.md",
-    "SWEN 614/lectures/Terraform Advanced.pdf",
-    "SWEN 614/Infrastructure as Code.md",
-    "SWEN 614/lectures/Infrastructure as Code.pdf",
-    "SWEN 614/lectures/Virtualization.pdf",
-    "SWEN 614/Cloud Introduction.md",
-    "SWEN 614/Cloud Deployment Models.md",
-    "HSPT 165/Pairing 3 -- Cheese and Prosciutto.md",
-    "HSPT 165/Wine terminologies.md",
+    "HSPT 165/Pairing 5 -- Seafood, Veggies x Wine.md",
+    "HSPT 165/images/Pasted image 20260218132117.png",
+    "HSPT 165/Pairing 4 -- Smokey food x wine.md",
+    "HSPT 165/images/Pasted image 20260218132102.png",
+    "HSPT 165/images/Pasted image 20260218132000.png",
+    "HSPT 165/images/Pasted image 20260218131923.png",
+    "HSPT 165/images/Pasted image 20260218131857.png",
+    "HSPT 165/images/Pasted image 20260218131834.png",
     "HSPT 165/README.md",
-    "CSCI 620/lecture-3/Advanced querying.md",
-    "CSCI 620/lectures/3 - Document.pdf",
+    "README.md",
+    "SWEN 614/images/Screenshot 2026-02-16 at 18.52.00.png",
+    "SWEN 614/images/Pasted image 20260216192300.png",
+    "SWEN 614/images/Screen Recording 2026-02-16 at 19.10.19.mov",
+    "CSCI 620/images/Screenshot 2026-02-18 at 11.12.28.png",
+    "CSCI 620/lectures/4 - Preparation.pdf",
     "CSCI 620/README.md",
-    "CSCI 620/lecture-3/Documents.md",
+    "CSCI 620/lecture-4/Descriptive statistics.md",
+    "CSCI 620/lecture-4/Untitled.md",
+    "CSCI 620/lecture-4",
+    "SWEN 614/Auto-Scaling.md",
+    "CSCI 620/lecture-3/Advanced querying.md",
+    "SWEN 614/Cloud Introduction.md",
+    "SWEN 614/AWS Overview.md",
+    "SWEN 614/lectures/Cloud Networking.pdf",
+    "SWEN 614/lectures/AWS Overview.pdf",
+    "CSCI 620/lecture-2/Aggregation and string operations.md",
+    "CSCI 620/lecture-2/Introduction.md",
     "CSCI 620/lecture-3/Introduction.md",
+    "CSCI 620/lecture-3/Documents.md",
+    "CSCI 620/lecture-3/Basic Querying.md",
+    "SWEN 614/Understanding Cloud Costs.md",
+    "HSPT 165/Pairing 3 -- Cheese and Prosciutto.md",
+    "SWEN 614/lectures/Terraform Advanced.pdf",
+    "SWEN 614/Terraform.md",
+    "SWEN 614/lectures/DevOps on the Cloud.pdf",
+    "SWEN 614/lectures/Infrastructure as Code.pdf",
     "SWEN 614/lectures/Intro Cloud Computing.pdf",
     "SWEN 614/lectures/Service Models.pdf",
-    "SWEN 614/lectures/AWS Overview.pdf",
-    "SWEN 614/images/Pasted image 20260114185229.png",
-    "SWEN 614/images/Pasted image 20260114192520.png",
-    "SWEN 614/images/Pasted image 20260114192702.png",
-    "CSCI 620/lecture-3/Basic Querying.md",
-    "README.md",
-    "CSCI 620/lecture-2/Introduction.md",
-    "CSCI 620/lecture-3",
-    "CSCI 620/lectures/2 - Data querying.pdf",
-    "HSPT 165/Pairing 2 -- Popcorn x Wine.md",
-    "HSPT 165/images/wine-glass-types.png",
-    "HSPT 165/Pairing 1.md",
-    "CSCI 620/lecture-1/Logical Model.md",
-    "CSCI 620/lecture-1/Physical Model.md",
-    "CSCI 620/lecture-2/Aggregation and string operations.md",
-    "CSCI 620/lecture-2/From conceptual to logical.md",
-    "SWEN 614/Virtualization.md",
-    "SWEN 614/Service models.md",
-    "CSCI 620/lecture-1/MISC.md"
+    "SWEN 614/DevOps & Pipelines.md"
   ]
 }

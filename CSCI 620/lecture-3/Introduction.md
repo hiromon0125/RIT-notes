@@ -1,6 +1,5 @@
 
 
-
 ## Why we need column oriented
 Reading just one column is slow because its not laid out next to each other.
 
