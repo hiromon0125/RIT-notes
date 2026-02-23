@@ -94,8 +94,7 @@
 	- increase power of existing system by adding more servers
 	- pros - less costly, fault tolerant
 	- cons - requires load balancing, can be more complex to manage
-
-![[Screen Recording 2026-02-16 at 19.10.19.mov]]
+[demo](https://drive.google.com/file/d/1FgDfQbR2s1a13WF0kPTDUo81a_tj_2VM/view?usp=drive_link)
 
 ## Load Balancing
 
