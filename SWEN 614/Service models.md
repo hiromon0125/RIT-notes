@@ -3,24 +3,25 @@ Cloud computing roles
 
 **Cloud providers** are companies that supply the infrastructure, platforms, and technology for cloud services
 
-**Service providers** are third-party vendors that develop and deliver specific cloud-based services, applications, or software to other businesses(?)
+**Service providers** are third-party vendors that develop and deliver specific cloud-based services, applications, or software to other businesses that are hosted on cloud providers'
+infra
 
 **Customers** people that uses the cloud services to host their application for their business
 
-## Is cloud actually a good option?
+## Is cloud actually a good option
 - factors to consider
 	- cost
 	- reliability
 		- it can go down regardless of if you host or cloud provider host
 	- secure
 	- support model
-	- which services to choose?
+	- which services to choose
 - proper architecture for cloud
 	- It is the responsibility of the customer to ensure the proper configuration of the services
 
 Service Models
-1. Saas - Software as a Service
-2. Paas - Platform as a Service
+1. SaaS - Software as a Service
+2. PaaS - Platform as a Service
 3. IaaS - Infrastructure as a Service
 
 ![[Pasted image 20260114185229.png|300]]
@@ -66,7 +67,7 @@ Service Models
 - allows customer the complete control over how applications, languages and fundamental resources are managed
 - Also allows services like DB, Storage, and networking resources.
 - Customer just rents computing resoruces instead of buying and installing them in their own data center
-- IaaS providers supplies virtual machine images of different operating system flavors(?)
+- IaaS providers supplies virtual machine images of different operating system flavors
 
 ### Pros of IaaS
 - Price because you can rent servers and everything from managing and purchasing servers are already handled

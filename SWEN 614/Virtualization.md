@@ -7,9 +7,9 @@
 	1. this is more on the focus of usage patterns
 2. reduction in capital expenditures
 	1. CapEx(Capital expenditures)
-		1. large up-front invenstment to be written down as a gamble
+		1. large up-front investment to be written down as a gamble
 	2. OpEx(Operational expenditures)
-		1. pay as you go(?)
+		1. day to day expense which can much more easily be increased or decreased as business needs dictate
 	3. moving from datacenter to cloud is increasing CapEx. 
 3. improved resource utilization and allocation
 	1. traditional data center vs cloud
@@ -19,7 +19,7 @@
 ## Datacenters vs Cloud
 
 - Operating a large data center which cost 10 to 25 million per year to run
-- would moving to the cloud save money?
+- would moving to the cloud save money
 	- probably not
 	- but depends on your server utilization
 
@@ -32,7 +32,10 @@ traditional dc
 - each system must be individually patched to keep up to date with security and performance patches
 cloud
 - ability to manage servers much easier
-- expand servers as needed?
+- expand servers as needed
+- estimated that more than 80% of on-premise enterprise workloads are overprovisioned
+- by retaining excess capacity as these workloads are moved to the cloud, companies can actually increase the costs of running them by up to 15%
+- Instead of becoming more efficient, they're merely transferring their existing inefficiencies to a new location(and paying more)
 
 ## Virtualization 
 
@@ -45,7 +48,7 @@ encapsulation
 - save the entire state of a virtual machine to files
 - move and copy virtual machines as easily as moving and copying files
 hardware independence
-- provision or migrate any (?)
+- provision or migrate any virtual machine to any physical server
 
 before virtualization
 - single OS per machine
@@ -55,9 +58,9 @@ before virtualization
 - inflexible and costly infra
 
 after
-- hardware independence of operating system and applciation
+- hardware independence of operating system and application
 - virtual machines can be provisioned to any system
-- can manage OS and application as a ??
+- can manage OS and application as a single unit by encapsulating them into virtual machines
 
 ## Hypervisor
 
@@ -65,7 +68,7 @@ Virtual machine manager(VMM)
 Hosted:
 - can run multiple OS but doesn't have to access to hardware
 - more overhead
-- mroe overhead
+- more overhead
 - if host crashes you lose access to guest OS
 
 Examples: VMWare Workstation, VMware parallel
@@ -73,7 +76,7 @@ Examples: VMWare Workstation, VMware parallel
 Native:
 - Installs directly onto a computer
 - hypervisor has direct access to all hardware and features
-- used for servers because of their security an portability to move frrom hardware to hardware
+- used for servers because of their security an portability to move from hardware to hardware
 
 ## What can be virtualized
 
@@ -112,7 +115,7 @@ Any time the server has to be shutdown causes downtime for traditional methods, 
 	- Licensing models can be complex in virtual env
 	- tracking and managing compliance across dynamic virtualized system can be more difficult
 - security and isolation risks
-	- virtual env introduce new attack surfaces, including hypervisor vulnerabilities and VM sprawl(?)
+	- virtual env introduce new attack surfaces, including hypervisor vulnerabilities and VM sprawl
 	- ensuring strong isolation between VMs and consistent patching across hats is critical to maintain security
 
 

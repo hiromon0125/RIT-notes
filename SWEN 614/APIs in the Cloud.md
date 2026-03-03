@@ -20,16 +20,16 @@
 ## OPEN API Specification
 - previously called "swagger specification"
 - language agnostic
-- why important?
+- why is this important
 	- declarative resource spec
 	- clients can understand and consume services without knowledge
 	- applications implemented based on OpenAPI
 
 ## API Gateway
 
-- API gateway is a server that is the single entry pioint into the system 
+- API gateway is a server that is the single entry point into the system 
 - it sits between the clients and services and acts as a reverse proxy
-- routes requedsts from client to the service
+- routes requests from client to the service
 - it encapsulates the internal system architecture and provides an API that is tailored to the client
 - features
 	- authentication

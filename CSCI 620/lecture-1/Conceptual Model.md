@@ -39,7 +39,7 @@ Types of Keys
 2. candidate
 3. primary
 
-What to do if there are no identifiable keys?
+What to do if there are no identifiable keys
 - create an artificial id
 	- note that depending on the data size or frequency of new items it could be difficult to create unique ids
 	- in which case we should describe using other items or attributes

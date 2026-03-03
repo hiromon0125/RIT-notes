@@ -10,7 +10,9 @@
 
 - **Elasticity** is key principle of cloud computing
 - defines the ability to scale infra up or down based on demand
-- provide rules to programming(?)
+- provide rules to programmatically scale up or down
+- key advantage provided by cloud providers
+- all major cloud providers offer auto-scaling
 
 ## Auto-Scaling Adavntages
 
@@ -18,9 +20,10 @@
 	- Auto-Scaling can detect when an instance is unhealthy terminate it
 	- then launch an instance to replace it
 - improved availability
-	- helps ensure that your applcition always has the right amount of cap
+	- helps ensure that your application always has the right amount of capacity to handle the traffic demand
 - Cost management
-	- when server loads are low, auto-scaling allows comanies(?)
+	- when server loads are low, auto-scaling allows companies managing their own infrastructure to automatically turn them off
+	- means paying for total usage instead of maximum capacity
 
 
 ## Auto-Scaling Usage Patterns
@@ -30,12 +33,12 @@
 - common scenario for statup or early growth companies
 - don't init with a lot of capacity
 - cost is minimized until the demand grows
-- as usage increases, the infra(?)
+- as usage increases, the infrastructure must respond and scale up quickly to minimize any disruptions in service
 
 ### Predictable Burst
 
 - Usually triggered by an event that may anticipated
-- example: a new releast of a product or tickets
+- example: a new release of a product or tickets
 - over time, and interest may wane and return to normal levels
 
 ### Unpredictable Burst
@@ -46,7 +49,7 @@
 ### Periodic Processing
 
 - tied to an application that may be used heavily during a specific time of year and then forgotten completely
-- a tax applciation or a system processing annual reviews
+- a tax application or a system processing annual reviews
 
 ### Sizing for each scenario
 
@@ -98,8 +101,11 @@
 
 ## Load Balancing
 
-- load balancing involves distributing network traffic
-- with load balancing alone you need to know ahead of time how much capacity you need so you can keep addiional instances running and registered(?)
+- load balancing involves distributing network traffic among multiple servers
+- to ensure no single server is overwhelmed with demand
+- by even distributing the load load balancing enhances application responsiveness
+- with load balancing alone you need to know ahead of time how much capacity you need so you can keep additional instances running and registered with the load balancer to serve higher loads
+- by associating a load balancer to an Auto-Scaling group, applications can quickly scale-up to handle the increased demand
 
 > [!NOTE]
 > You need both load balancer and auto-scaling to make it work
@@ -118,16 +124,17 @@ Auto-Scaling with Terraform
 
 ### Auto-Scaling & Netflix
 
- - Auto-Scaling plan and policy does Netflix use?
+ - Auto-Scaling plan and policy does Netflix use
  - "Scryer"
 	 - tool that predicts what the needs will be prior to the time of need and provisions the instances based on those predictions
 	 - differs from AWS Auto-Scaling, which is more reactive
- - AWS Auto-Scaling address their needs?
+ - Does AWS Auto-Scaling address their needs
 	 - Rapid Spike in demand - Instances take 10-15 min on startup 
 	 - Outages - A sudden drop in request
 - Hybrid approach - Best of both worlds
 	- Scryer alone does not replace AWS Auto-Scaling
 	- Netflix has indicated that by combining Scryer + AWS
-- Netflix
-	- (?)
+- Netflix open-sourced solutions
+	- check https://netflix.github.io
+	- Scryer is not there yet
 

@@ -15,7 +15,7 @@
 - can be on or offsite
 - Usually necessary for heavily regulated services such as regulations and legislative
 - Could be for higher degree of access, accountability, control, and governance
-- Examples: Banking, Healthcare, Gaming(?), Education
+- Examples: Banking, Healthcare, Gaming, Education
 
 ## 2. Public Cloud
 - available for all of us or general public

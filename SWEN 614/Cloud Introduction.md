@@ -6,7 +6,8 @@ key principles of cloud computing
 	- cloud providers are pooled together to service multiple consumers
 	- consumers share the same resources which is referred to as "multi-tenancy"
 	- Each server is shared by multiple people
-	- More cost efficient as users subscribe to resources vs. purchasing(?)
+	- More cost efficient as users subscribe to resources vs. purchasing
+	- Consumers share the same resources which is referred to as "multi-tenancy"
 - virtualization
 	- vital to cloud as physical servers consume significant space fro power and cooling
 	- each server is partitioned into many virtual servers serving multiple applications

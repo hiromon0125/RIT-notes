@@ -1,46 +1,53 @@
 2/18/2026
+![[SWEN 614/lectures/Containers in the Cloud.pdf|Containers in the Cloud]]
 
 ## EC2 instances and auto-scaling
 
 - One drawback is it can be several seconds or minutes to get ready
-	- consumes a lot of resources and may not be reuired if you need to do something small
+	- consumes a lot of resources and may not be required if you need to do something small
 
 ## Virtual Machines
 
 - EC2 are VMs using hypervisors creates and runs VMs
 - within each VM runs one or more unique guest operating systems
-- (?)
+- VMs with different operating systems can run on the same physical server
+- Each VM has its own binaries, libraries, and applications that it services
+- VM could be several gigs in size
 
 ## Problem
 
 - What is the likelihood that hardware on the bottom will run the software on the top:![[Screenshot 2026-02-18 at 18.53.09.png]]
 - Answer: very difficult
 
-## COntainers
+## Containers
 
 - containers sits on top of a physical server and its host OS - like linux or windows
 - each container shares the host OS kernel
 - shared components are read only
-- because they all sheare a single (?)
+- because they all share a single, common operating system, it is much simpler for things like bug fixes and patches
+- should only be megabytes in size use less resources than VMs
+- possible to fit multiple containers onto a single server
 
 ### Application Management
 
-- on a typical server applications may be dependent on libraries that are shared with other applications
-- updating one of these dependencies may inadvertently break another application
-- Contianerizing applications allows each to run in isolation with impacting other containers
-- dependencies can be safely (?)
+- Challenge
+	- on a typical server applications may be dependent on libraries that are shared with other applications
+	- updating one of these dependencies may inadvertently break another application
+- Solution
+	- Containerizing applications allows each to run in isolation with impacting other containers
+	- dependencies can be safely updated without breaking applications in other containers
 
 ## Examples of containers
 
 - problem:
-	- you have hundreds of applications runnning on premise and need to move everything to the cloud
+	- you have hundreds of applications running on premise and need to move everything to the cloud
 - challenge
 	- porting everything to the cloud requires recompiling and testing on new servers
 	- idle servers can be expensive if they are not fully utilized
 - Solution:
-	- port to contianers and tst and validate
+	- port to containers and test and validate
 	- can move to the cloud with. no recompiling
-	- becasue of this portability they could also be moved easily from one clooud to anotherand continue to work
+	- because of this portability they could also be moved easily from one cloud to another and continue to work
 	- this avoids __vendor lock-in__
 
 - problem
@@ -51,7 +58,7 @@
 - solution:
 	- take the entire testing env and containerze it
 	- multiple copies can be spun up aon demand and quickly torn down after testing to avoid cloud waste
-	- (?)
+	- This saves time and money and ensures a consistent testing environment
 
 ## Container Solutions
 
@@ -66,9 +73,9 @@
 
 open source containerization engine, which automates the packaging shipping and deployment of any software applications that are presented as lightweight portable and self-sufficient ...
 
-### How does it work?
+### How does it work
 
-- docker client is the mahjor way that provides communication between many dockers users to docker
+- docker client is the major way that provides communication between many dockers users to docker
 - sends the commands to the docker daemon, which carries them out
 - docker registry is where the docker images are stored
 - docker hub is a public registry that anyone can access and configure
@@ -80,7 +87,11 @@ open source containerization engine, which automates the packaging shipping and 
 
 - Fully managed container registry by AWS, enabling secure storage management, and deployment of Docker container images
 - provides image encryption at rest
-- (?)
+- IAM-based access controls, and vulnerability scanning with Amazon Inspector
+- DockerHub vs ECR
+	- DockerHub has public repositories, ECR repositories are private by default enhancing security
+	- DockerHub is a globally accessible service which ECR operates within AWS regions, ensuring low-latency access
+	- DockerHub's requires on a standalone account, ECR uses AWS credentials for authentication
 
 ## Containerization Activity
 
@@ -89,21 +100,21 @@ open source containerization engine, which automates the packaging shipping and 
 	- even if we separate wp to submodules like fe and be
 - We can duplicate FE or BE
 
-
+![[SWEN 614/lectures/Container Orchestration.pdf|Container Orchestration]]
 ## Orchestration
 
 - automation of all aspects of coordinating and managing containers
 - features
-	- provisioning and deployment of contianer
-	- redudancy and vailability of containers
-	- scaling up or down to spread application load eevently across host infra
-	- external exposuire of services running in a container with the outside world
+	- provisioning and deployment of container
+	- redundancy and availability of containers
+	- scaling up or down to spread application load evently across host infra
+	- external exposure of services running in a container with the outside world
 	- load balancing between containers
 	- health monitoring containers and servers
-- describe configuration using yaml or json fiel
-- configuration file specifies infromation such as the location of the image networking between container storage mounting, etyc
+- describe configuration using yaml or json file
+- configuration file specifies information such as the location of the image networking between container storage mounting, etc
 - the container orchestration tool
-- automatically schedules the deployment of tcontainers 
+- automatically schedules the deployment of containers 
 - benefits
 	- scalability
 	- simple and fast deployment 
@@ -137,16 +148,17 @@ open source containerization engine, which automates the packaging shipping and 
 
 - Master(control plane) a set of components that collectively manage the state of the k8 cluster
 	- API server: central management interface. validates requests processes configuration data etc.
-	- ETCD distributed key-value stortre that serv es as k8s backing store
-	- (?)
+	- ETCD distributed key-value store that serves as k8s backing store
+	- Controller Manger ensures the desired state of the cluster by running controllers that handle tasks like node monitoring replication, and maintaining service endpoints
+	- scheduler assigns pods to nodes based on resource availability, constraints, and scheduling policies, ensuring efficient placement and workload balance in the cluster
 - **Kubelet** serves as the cluster's "node agent" supervise node.
-- **Kube-proxy** is set up on every node and enables servcies in a cluster connection
+- **Kube-proxy** is set up on every node and enables services in a cluster connection
 
 
 ### Autoscaling
 
 Horizontal pod autoscaling(HPA)
-- adjusts the numebr based on metrics like CPU, Memory, or app metrics
+- adjusts the number based on metrics like CPU, Memory, or app metrics
 Vertical pod autoscaling(VPA)
 - dynamically adjust resources
 Cluster Autoscaler
@@ -164,22 +176,44 @@ Cluster Autoscaler
 
 ## Amazon Elastic Kubernetes Services(EKS)
 
-- fully managed K8s servciews that simplifies the deployment
+- fully managed K8s service that simplifies the deployment
 - integrates seamlessly with AWS
 - 100% compatible with k8s 
 - uses same tooling and APIs as self-managed kubernetes
-- **Fargate** serverless compute enfine which works with ECS and EKS where the management of the underlying VM is performed by AWS and the user needs to manage the deb and deployment of the applicaiton
-	- good for 
-		- microserv
-		- (?)
+- **Fargate** serverless compute 
+	- works with ECS and EKS where the management of the underlying VM is performed by AWS and the user needs to manage the development and deployment of the application
+	- Fargate is good for 
+		- microservices with variable workloads
+		- Dev/Test environments
+		- Teams without infrastructure expertise
+		- Applications requiring strict workload isolation
+		- Batched processing jobs
+	- EC2 is good for
+		- High-performance applications
+		- workloads requiring specific instance types
+		- Stateful applications
+		- Cost-sensitive production workloads
+		- Applications requiring full host access
 	- ![[Screenshot 2026-02-23 at 19.12.42.png]]
+- Using terraform with EKS
+	- setting up an Amazon EKS cluster involves creating and managing numerous interconnected resources. Terraform can streamline this complex process by defining your entire EKS environment in a single reusable configuration file
+	- Other benefits
+		- EKS requires resources like VPCs, IAM roles, security groups, node groups, and add-ons. Terraform allows you. to manage these resources cohesively,  avoiding manual steps across the AWS Management Console.
+		- Automate the creation of over 60 resources required for a fully functional EKS setup, ensuring consistent configurations across environments
+		- terraform automatically resolves dependencies between AWS resources, ensuring that components like VPCs and subnets are available before node groups or services are provisioned
+		- With terraform modules, you can reuse configurations and easily extend your setup to include additional resources, such as monitoring or auto-scaling policies with minimal effort
 
-## Amazon Elastic Container SErvices(ECS)
+## Amazon Elastic Container Services(ECS)
 
 - managed container orchestration services to enable users to run it
 - Cluster management
-- Task defiintino
-- (?)
+	- supports cluster of EC2 or Fargate
+- Task definition
+	- Defines the containers to run as a part of a task, including image, CPU, memory, and network configuration
+- Services
+	- ensures a specified number of tasks are continuously running and can be automatically scaled and managed
+- Auto-Scaling
+	- ECS supports Auto-scaling for both the containerized applications and the underlying EC2 instances, ensuring that applications can dynamically adjust to varying workloads
 
 ## EKS vs ECS
 
