@@ -1,0 +1,147 @@
+
+## Format
+- mycourses quiz
+- camera must be always on during exam
+- question:
+	Multiple choice
+	Multiple select
+	Not allowed to go back to previous questions
+	60 min for 50 questions
+- randomized questions
+- Allowed 1 letter piece of paper
+	- must submit before class
+
+## Content
+- key principles of cloud computing
+	- polled resources
+	- virtualization
+	- elasticity
+	- automation
+	- metered billing
+- deployment models
+	- private
+	- public
+	- community
+	- hybrid
+- service models
+	- SaaS
+	- PaaS
+	- IaaS
+	- putting all of this together
+		- be able to differentiate models from a condition
+- economic cloud model
+	- CAPEX
+		- up-front cost
+	- OPEX
+		- pay as you go
+- Virtualization
+	- partitioning
+	- isolation
+	- encapsulation
+	- hardware independence
+	- Hypervisor vs Virtual Machines
+- EC2
+	- ability for users to create vvirtual machiens as needed
+	- elastic
+- AMI
+	- Know whats required for AMI
+- Regions
+	- each region represents a separate geographic area
+	- availability zone
+- Storage
+	- EC2 instance store(for ec2 storage)
+	- S3
+	- EBS
+	- EFS
+	- Glacier
+	- Storage Gateway
+	- Snowball(transfering methods)
+	- Snowball Edge(transfering methods)
+	- Snowmobile(transfering methods)
+- Virtual Private Cloud (VPC)
+	- VPC
+	- Subnet
+		- public subnet for resources that must be connected to the internet and resources in a private subnet can only access the internet using a NAT gateway
+	- Route Table
+	- Internet gateway
+	- NAT gateway 
+		- must be in public gateway
+	- VPC endpoint
+		- private connection between tygou VPC and supported AWS Services
+- AWS Command Line Interface
+	- ability to automate the entire process of controlling and managing AWS Services through scripts
+	- scripts make it easy for users to fully automate it
+- IaC
+	- infrastructure automation based on practices from software development
+	- Terraform
+		- IaC tool for AWS, Azure, GCP, and many more
+- Terraform 
+	- modules
+	- workspaces
+	- Local State
+	- Remote State
+	- know commands
+		- init
+		- plan
+		- apply
+		- destroy
+	- Securing Sensitive Data
+		- sensitive=true
+- DevOps
+	- cultural change which aims to shorten the system development lifecycle and provide continuous delivery with high software quality
+	- CI/CD pipeline is the backbone of the modern DevOps environment
+		- CI
+		- CD
+		- Continuous Deployment = CI+CD+fully automated deployment to production
+	- Github Actions
+	- Triggering workflows
+	- Deployment Environments
+	- Integration with Terraform
+- AWS Calculator(not going to be on the test)
+- Auto-scaling
+	- flexibility to add or remove capacity to your resource group
+	- setting threshold
+	- fault tolerance
+	- improved availability
+	- cost management
+	- usage patterns
+		- Start Small, Grow Fast
+		- Predictable 
+		- unpredictable bursts
+		- periodic processing
+	- Launch template
+	- Auto-scaling group
+	- Auto-Scale plan
+	- health-check 
+	- tie auto-scaling to load balancer
+- Horizontal vs Vertical Scaling
+	- Know the pros and cons of each
+- Containers
+	- difference between this and VMs
+- Container orchestration
+	- provisioning and deployment
+	- scaling
+	- load balancing
+	- resilience
+	- health monitoring
+	- Kubernetes
+		- node
+		- pod
+		- container
+- APIs
+	- SOAP - XML based platform agnostic 
+		- WSDL
+	- REST 
+		- uniform interface
+		- client server
+		- stateless
+		- Cacheable
+		- Layered system
+- API Gateway
+	- server that is the single entry point into the system
+	- sits between teh clients and servies and acts as a reverse proxy rouitinmg requests from clients to service
+	- remember features
+		- rate limit
+		- logging
+		- authentication
+		- caching

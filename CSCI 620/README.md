@@ -35,3 +35,8 @@ Lecture Slide 4
 4. [[Binning]] 
 5. Fixing data issues (integration) 
 6. Conclusions
+
+Lecture Slide 5
+[[5 - Itemset mining.pdf]]
+1. [[The Apriori algorithm]]
+2. Optimizations
