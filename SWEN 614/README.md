@@ -13,7 +13,7 @@
 10. [[Auto-Scaling]]  
 11. [[Containerization & Orchestration]]  
 12. [[APIs in the Cloud]] 
-13. Microservices/Serverless Computing  
+13. [[Microservices & Serverless Computing]]  
 14. Cloud Databases  
 15. Security and Compliance  
 16. Disaster Recovery & Resiliency  
