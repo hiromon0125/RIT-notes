@@ -55,12 +55,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSCI 620/lecture-5/The Apriori algorithm.md",
+                "file": "HSPT 165/Pairing 7 -- Deserts x sweet fruit wine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Apriori algorithm"
+              "title": "Pairing 7 -- Deserts x sweet fruit wine"
+            }
+          },
+          {
+            "id": "a13e5c4eb2a9b337",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HSPT 165/Pairing 8 -- Meat x Wine.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pairing 8 -- Meat x Wine"
             }
           },
           {
@@ -78,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -153,7 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 236.5
   },
   "right": {
     "id": "8db1428f3a7fbcfc",
@@ -231,13 +245,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSCI 620/lecture-5/The Apriori algorithm.md",
+                "file": "HSPT 165/Pairing 8 -- Meat x Wine.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of The Apriori algorithm"
+              "title": "Outline of Pairing 8 -- Meat x Wine"
             }
           }
         ],
@@ -259,15 +273,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5737a9ed38687925",
+  "active": "a13e5c4eb2a9b337",
   "lastOpenFiles": [
-    "Untitled.md",
+    "HSPT 165/Pairing 7 -- Deserts x sweet fruit wine.md",
+    "HSPT 165/Pairing 8 -- Meat x Wine.md",
     "CSCI 620/lecture-5/The Apriori algorithm.md",
+    "Untitled.md",
     "CSCI 620/lecture-5/Example of Apriori Algo.md",
     "CSCI 620/lecture-5/Vertical.md",
     "SWEN 614/README.md",
     "CSCI 620/lectures/5 - Itemset mining.pdf",
-    "HSPT 165/Pairing 7 -- Deserts & sweet fruit wine.md",
     "HSPT 165/Pairing 6 --.md",
     "HSPT 165/Pairing 5 -- Seafood, Veggies x Wine.md",
     "SWEN 614/Cloud Databases.md",
@@ -300,7 +315,6 @@
     "CSCI 620/README.md",
     "CSCI 620/lecture-4/Binning.md",
     "CSCI 620/lecture-4/Charts.md",
-    "CSCI 620/lecture-4/Descriptive statistics.md",
     "SWEN 614/images/Screenshot 2026-02-18 at 18.53.09.png",
     "HSPT 165/images/Pasted image 20260218132117.png",
     "HSPT 165/images/Pasted image 20260218132102.png",
