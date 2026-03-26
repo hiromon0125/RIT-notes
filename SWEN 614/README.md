@@ -16,7 +16,7 @@
 13. [[Microservices & Serverless Computing]]  
 14. [[Cloud Databases]]  
 15. Security and Compliance  
-16. Disaster Recovery & Resiliency  
+16. [[Disaster Recovery & Resiliency]]
 17. Big Data on the Cloud  
 18. Data Lakes and Analytics  
 19. Cloud Observability and Monitoring  

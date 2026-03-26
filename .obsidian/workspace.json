@@ -69,6 +69,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "SWEN 614/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "fdd8f155f9a2e44f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "HSPT 165/Pairing 8 -- Meat x Wine.md",
                 "mode": "source",
                 "source": false
@@ -92,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -273,15 +287,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a13e5c4eb2a9b337",
+  "active": "fdd8f155f9a2e44f",
   "lastOpenFiles": [
-    "HSPT 165/Pairing 7 -- Deserts x sweet fruit wine.md",
+    "SWEN 614/Disaster Recovery & Resiliency.md",
+    "SWEN 614/README.md",
     "HSPT 165/Pairing 8 -- Meat x Wine.md",
+    "HSPT 165/Pairing 7 -- Deserts x sweet fruit wine.md",
     "CSCI 620/lecture-5/The Apriori algorithm.md",
     "Untitled.md",
     "CSCI 620/lecture-5/Example of Apriori Algo.md",
     "CSCI 620/lecture-5/Vertical.md",
-    "SWEN 614/README.md",
     "CSCI 620/lectures/5 - Itemset mining.pdf",
     "HSPT 165/Pairing 6 --.md",
     "HSPT 165/Pairing 5 -- Seafood, Veggies x Wine.md",
@@ -314,7 +329,6 @@
     "Pasted image 20260223185534.png",
     "CSCI 620/README.md",
     "CSCI 620/lecture-4/Binning.md",
-    "CSCI 620/lecture-4/Charts.md",
     "SWEN 614/images/Screenshot 2026-02-18 at 18.53.09.png",
     "HSPT 165/images/Pasted image 20260218132117.png",
     "HSPT 165/images/Pasted image 20260218132102.png",
