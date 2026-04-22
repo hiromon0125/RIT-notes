@@ -17,8 +17,11 @@
 14. [[Cloud Databases]]  
 15. Security and Compliance  
 16. [[Disaster Recovery & Resiliency]]
-17. Big Data on the Cloud  
-18. Data Lakes and Analytics  
-19. Cloud Observability and Monitoring  
-20. Generative AI on the cloud  
-21. Architecting for the Cloud
+17. [[Big Data on the Cloud]]  
+18. [[Data Lakes and Analytics]]  
+19. [[Cloud Observability and Monitoring]]  
+20. [[Generative AI on the cloud]]
+21. [[Architecting for the Cloud]]
+
+
+-- [[weather pyspark hw]]
