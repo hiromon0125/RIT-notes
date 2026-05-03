@@ -1,3 +1,4 @@
+![[SWEN 614/lectures/Resiliency.pdf|Resiliency]]
 
 Recent outages
 - MS Azure(2021)
