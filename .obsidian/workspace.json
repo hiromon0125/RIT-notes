@@ -170,13 +170,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SWEN 732/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline"
             }
           }
         ],
@@ -199,7 +198,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d124be27a330bc0e",
+  "active": "ae4f63e67b9f707f",
   "lastOpenFiles": [
     "SWEN 732/README.md",
     "SWEN 732",
