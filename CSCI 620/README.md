@@ -40,3 +40,5 @@ Lecture Slide 5
 [[5 - Itemset mining.pdf]]
 1. [[The Apriori algorithm]]
 2. Optimizations
+
+[[EXAM Description]]

@@ -25,14 +25,14 @@
             "id": "8eba2459f831d39a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "HSPT 165/Pairing 11 -- Cheese x Wine.md",
-                "mode": "source",
-                "source": false
+                "aFile": "CSCI 620/README.md",
+                "bFile": "CSCI 620/README.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Pairing 11 -- Cheese x Wine"
+              "icon": "diff",
+              "title": "Diff: README  (Working Tree)"
             }
           }
         ],
@@ -48,7 +48,7 @@
       {
         "id": "052b4637d3b99a49",
         "type": "tabs",
-        "dimension": 34.21400264200793,
+        "dimension": 60.634081902245704,
         "children": [
           {
             "id": "d124be27a330bc0e",
@@ -95,7 +95,7 @@
       {
         "id": "f5ec134d3a44e02a",
         "type": "tabs",
-        "dimension": 65.78599735799207,
+        "dimension": 39.365918097754296,
         "children": [
           {
             "id": "ae4f63e67b9f707f",
@@ -220,8 +220,10 @@
   },
   "active": "8eba2459f831d39a",
   "lastOpenFiles": [
-    "HSPT 165/README.md",
+    "CSCI 620/README.md",
+    "CSCI 620/EXAM Description.md",
     "HSPT 165/Pairing 11 -- Cheese x Wine.md",
+    "HSPT 165/README.md",
     "SWEN 614/Architecting for the Cloud.md",
     "Pasted image 20260415191504.png",
     "Pasted image 20260415191444.png",
@@ -254,10 +256,8 @@
     "CSCI 620/lecture-5/Example of Apriori Algo.md",
     "CSCI 620/lecture-5/Vertical.md",
     "HSPT 165/Pairing 6 --.md",
-    "SWEN 614/Microservices & Serverless Computing.md",
     "Microservices",
     "SWEN 614/lectures/Virtualization.pdf",
-    "SWEN 614/Virtualization.md",
     "SWEN 614/lectures/Understanding Cloud Costs.pdf",
     "SWEN 614/lectures/Service Models.pdf",
     "SWEN 614/lectures/DevOps on the Cloud.pdf",
