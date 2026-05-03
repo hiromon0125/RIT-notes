@@ -15,5 +15,6 @@ lectures
 - [[Pairing 10 -- Spice x Wine]] -- 4/15/2026
 - [[Pairing 11 -- Cheese x Wine]] -- 4/22/2026
 
+- [[Final project Rough Draft]]
 
 

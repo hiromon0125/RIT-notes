@@ -4,7 +4,7 @@
 1. [[Cloud Introduction]]
 2. [[Service Models]]
 3. [[Virtualization]]
-4. AWS Overview
+4. [[AWS Overview]]
 5. [[Cloud Networking Basics]]
 6. [[Infrastructure as Code ]] 
 7. [[DevOps & Pipelines]]
@@ -23,5 +23,5 @@
 20. [[Generative AI on the cloud]]
 21. [[Architecting for the Cloud]]
 
-
+-- [[Midterm]]
 -- [[weather pyspark hw]]
