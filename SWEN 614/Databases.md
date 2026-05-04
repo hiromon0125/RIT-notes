@@ -1,7 +1,5 @@
-
+![[SWEN 614/lectures/Cloud DBs.pdf]]
 ## SQL vs NoSQL
-
-
 ### Amazon RDS Service(DB Service)
 - Amazon RDS is a managed database service
 - Fully managed DB does a lot of the handling of maintaining DB and keeping it up.
@@ -42,14 +40,19 @@
 
 ### DynamoDB
 - KV DB and DocumentDB
-- managed db, multi-region, multi-master, durable databse
+- managed db, multi-region, multi-master, durable database
 - security builtin 
 - backup and restore
 - Data types:
 	- single valued
 	- multi-valued: string, number set, binary set
 	- Document: list and maps
-- (?)
+- support Query and Scan for DB searching
+	- Query
+		- faster as it searches only primary key attribute values and asupports a subset of comparison operators on key attribute values to refine the search process
+	- Scan
+		- less efficient as it scans the entire table
+		- you can specify filters to apply to the results to refine the values returned to you, after the complete scan
 
 ### Challenges
 - don't conform to ACID 
@@ -59,7 +62,7 @@
 ## when to pick which
 SQL:
 - transactions and data consistency
-- storring relationships
+- storing relationships
 NoSQL:
 - handling a large number of read/write operations
 - running data analytics

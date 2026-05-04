@@ -1,5 +1,5 @@
 ![[SWEN 614/lectures/Big Data Concepts - Hadoop & Spark.pdf]]
-![[Big Data Concepts - Spark & Streaming.pdf]]
+![[SWEN 614/lectures/Big Data Concepts - Spark & Streaming.pdf]]
 
 Concepts:
 - Hadoop & Spark Basic

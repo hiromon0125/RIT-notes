@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SWEN 614/Data Lakes and Analytics.md",
+                "file": "SWEN 614/Auto-Scaling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Lakes and Analytics"
+              "title": "Auto-Scaling"
             }
           }
         ]
@@ -75,8 +75,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "f5ec134d3a44e02a",
@@ -175,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SWEN 614/Data Lakes and Analytics.md",
+                "file": "SWEN 614/Auto-Scaling.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Data Lakes and Analytics"
+              "title": "Outline of Auto-Scaling"
             }
           }
         ],
@@ -221,7 +220,7 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "Big Data Concepts - Spark & Streaming.pdf"
+                    "file": "SWEN 614/lectures/Big Data Concepts - Spark & Streaming.pdf"
                   },
                   "icon": "lucide-file-text",
                   "title": "Big Data Concepts - Spark & Streaming"
@@ -245,14 +244,26 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "Big Data-Analytics.pdf"
+                    "file": "SWEN 614/lectures/Big Data-Analytics.pdf"
                   },
                   "icon": "lucide-file-text",
                   "title": "Big Data-Analytics"
                 }
+              },
+              {
+                "id": "40f6e2e71609f29b",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "SWEN 614/lectures/Cloud DBs.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Cloud DBs"
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical",
@@ -265,22 +276,24 @@
       }
     ]
   },
-  "active": "0d3495e5cbb7c064",
+  "active": "9b4d5de3997047b1",
   "lastOpenFiles": [
-    "Big Data-Analytics.pdf",
+    "SWEN 614/lectures/Big Data Concepts - Spark & Streaming.pdf",
+    "README.md",
+    "SWEN 614/Auto-Scaling.md",
+    "SWEN 614/Databases.md",
+    "SWEN 614/lectures/Cloud DBs.pdf",
+    "SWEN 614/lectures/Big Data-Analytics.pdf",
     "SWEN 614/Data Lakes and Analytics.md",
     "SWEN 614/lectures/Big Data Concepts - Hadoop & Spark.pdf",
     "SWEN 614/Big Data on the Cloud.md",
     "SWEN 614/Service models.md",
-    "Big Data Concepts - Spark & Streaming.pdf",
     "SWEN 614/images/Pasted image 20260503202816.png",
     "SWEN 614/Architecting for the Cloud.md",
     "SWEN 614/lectures/Architecting for the Cloud.pdf",
     "SWEN 614/Disaster Recovery & Resiliency.md",
     "SWEN 614/API.md",
-    "SWEN 614/Auto-Scaling.md",
     "SWEN 614/AWS Overview.md",
-    "SWEN 614/Databases.md",
     "SWEN 614/Deployment Models.md",
     "SWEN 614/Cloud Introduction.md",
     "SWEN 614/Networking Basics.md",
@@ -297,7 +310,6 @@
     "SWEN 614/images/Pasted image 20260415191444.png",
     "SWEN 732/README.md",
     "SWEN 732",
-    "README.md",
     "HSPT 165/README.md",
     "HSPT 165/Pairing 4 -- Smokey food x wine.md",
     "HSPT 165/Final project Rough Draft.md",
@@ -308,7 +320,6 @@
     "TOC.base",
     "SWEN 614/images/Screenshot 2026-04-06 at 18.48.08.png",
     "CSCI 620/lectures/6 - Rule mining.pdf",
-    "CSCI 620/lectures/5 - Itemset mining.pdf",
     "SWEN 614/images/Pasted image 20260318192420.png",
     "SWEN 614/images/Screenshot 2026-02-23 at 19.12.42.png",
     "SWEN 614/images/Pasted image 20260223185534.png"

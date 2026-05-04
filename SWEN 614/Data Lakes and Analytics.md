@@ -1,4 +1,4 @@
-![[Big Data-Analytics.pdf]]
+![[SWEN 614/lectures/Big Data-Analytics.pdf]]
 
 Big Dat Analytics
 - searching for meaningful patterns in an ocean of data

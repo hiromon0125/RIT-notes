@@ -1,4 +1,4 @@
-
+![[SWEN 614/lectures/Autoscaling.pdf|Autoscaling]]
 ### Netflix
 - Netflix spends around $28 million per month on AWS 
 - using more than 100k server instances
@@ -14,7 +14,7 @@
 - key advantage provided by cloud providers
 - all major cloud providers offer auto-scaling
 
-## Auto-Scaling Adavntages
+## Auto-Scaling Advantages
 
 - Fault tolerance
 	- Auto-Scaling can detect when an instance is unhealthy terminate it
@@ -30,7 +30,7 @@
 
 ### Start Small, grow fast
 
-- common scenario for statup or early growth companies
+- common scenario for startup or early growth companies
 - don't init with a lot of capacity
 - cost is minimized until the demand grows
 - as usage increases, the infrastructure must respond and scale up quickly to minimize any disruptions in service
