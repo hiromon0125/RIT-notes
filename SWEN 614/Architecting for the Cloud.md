@@ -110,6 +110,7 @@ Look into
 
 Look into
 - [[Infrastructure as Code|IaC]]
+- [[Terraform]]
 ### Apply strong identity and access management
 
 - grant only the minimum permissions needed for each task
