@@ -1,22 +1,23 @@
+![[SWEN 614/lectures/Gen AI on the Cloud.pdf]]
 
-How does GenAI work?
+## How does Gen AI work
 - training cloud scale
 - deployment as managed services
 - applications send prompts
 - model generates output
 
-Model types?
+## Which Model type to use
 - most teams don't build or train models themselves
 - cloud providers deliver pre-trained models via APIs, removing complexity
 - developers focus on 
 	- integration
 	- designing prompts and workflows
 	- managed security, cost and governance
-- (?)
+- The cloud handles model infra and scaling, so the teams can concentrate on business logic
 
 ## Foundation models and LLMs
 - foundation models
-	- large pre-trained models that serve as a base for many trasks
+	- large pre-trained models that serve as a base for many tasks
 	- adaptable for text, images and more through fine-tuning or APIs
 - LLMs
 	- specialized foundation models for text generation
@@ -66,31 +67,49 @@ Model types?
 ### AWS EC2 UltraClusters
 - thousands of accelerated EC2 instances co-located in AWS availability zone and connected via elastic fabric Adapter for ultra-fast networking
 - high-speed storage:
-	- (?)
+	- Local storage on P5 nodes
+	- access to FSx for Lustre delivering petabytes per second throughput and billions of IOPs for massive parallel workloads
 
 ### AWS Bedrock
 - fully managed service for deploying and integrating generative AI models
 - provides API access to multiple foundation models without manage infra
 - supports customization and fine-tuning
 - scale easily
-- (?)
+- Features
+	- Managed infra to reduce operational overhead
+	- integration with AWS services
+	- Access to models from Anthropic, Cohere, Meta, Stability AI, ...
+	- Enterprise-grade security with encryption and IAM controls
 
-## How does Amazon Bedrock work?
-- provides easy access to foundation models from leading providers via a single(?)
-- (?)
+## How does Amazon Bedrock work
+- provides easy access to foundation models from leading providers via a single API
+- enables model switching or upgrades with minimal code changes
+- allows organizations to adopt new GenAI innovations quickly without managing infra or rewriting applications
 
 ### Amazon Titan on AWS Bedrock
 - amazon titan is a family of AWS-built foundation models available through amazon bedrock designed for security
-- (?)
-
+- Titan models integrate natively with AWS services, enabling teams to build GenAI solutions without managing model infrastructure
+- Titan model capabilities
+	- text premier
+		- generate and summarize text, answer questions, and power chat-based assistants
+	- Image generator
+		- create images from text prompts for use cases such as marketing, e-commerce, and media
+	- Text Embedding
+		- convert text into vectors for semantic search, recommendations, and similarity matching
+## Today
+- code generation and refactoring
+- test case creation and bug triage
+- Documentation and knowledge base search
+- code review assistance and security scanning
+- All enabled via cloud-hosted models and APIs
 ## Future
 - from coding to orchestration
 	- dev will shift from code to designing and managing ai-driven workflows
 - new areas of focus
 	- prompt engineering - crafting effective prompts for optimal ai output
-	- gurdrails
-	- cost perfoamcne monitoring
-- genAI as a built-in foundation
+	- guardrails
+	- cost performance monitoring
+- GenAI as a built-in foundation
 	- ai becomes an integral part of cloud-native architectures embedded by default
 - human accountability remains
 	- developers stay responsible for outcomes as AI accelerates work, not replaces it

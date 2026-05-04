@@ -10,7 +10,7 @@
 
 ### Precisions
 
-SQL should use Decimal(32,24)?
+SQL should use Decimal(32,24)(maybe)
 Mongo will just use Decimal casting
 
 Some function no matter what we do, will use double precision

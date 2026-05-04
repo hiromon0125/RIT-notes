@@ -154,7 +154,7 @@ How a new verison of the infrastructure or version of the software is deployed
 - During this time 
 
 ### Challenges
-- which deployment strategy to use?
+- which deployment strategy to use
 	1. Blue-green
 		1. rollback is easy as we have complete copy of the production environments
 	2. Canary
@@ -166,7 +166,7 @@ How a new verison of the infrastructure or version of the software is deployed
 
 ## Testing for outage scenarios
 - error handling code and failure handling procedures are usually the least well-tested aspect of an application
-- how do you know you have built a reliable system?
+- how do you know you have built a reliable system
 - if you know things will fail, you can build mechanisms to ensure system persist regardless of what happens
 
 ### Chaos Engineering

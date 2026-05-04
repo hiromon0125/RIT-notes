@@ -9,7 +9,7 @@
 	3. identity and access management
 	4. permission errors
 
-## Whos at fault?
+## Whos at fault
 
 ### Capital One breach
 - 100 mil customers have their data compromised by hacker after a cloud misconfig
@@ -181,7 +181,7 @@
 - provide logs of all keys usage may require regulatory and compliance needs
 - event history simplifies security analysis, resource change tracking, and troubleshooting to even detect unusual activity in AWS accounts
 
-## How secure are you?
+## How secure are you
 - AWS trusted advisor is a tool that provides you real time guidance to help you provision your resources following AWS best practices
 - For Security, trusted advisor scans for the following:
 	- Checks security groups for rules that allow unrestricted access to specific ports

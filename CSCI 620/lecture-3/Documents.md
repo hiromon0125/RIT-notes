@@ -21,4 +21,4 @@ db.table.insert(
 > Data Lake: data dump and "fish" data out
 
 ## Validator(Schema)
-After mongo 5.? you can now add validator that forms the table to a restricted type.
+After mongo 5.x you can now add validator that forms the table to a restricted type.
