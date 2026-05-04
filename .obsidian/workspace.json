@@ -280,7 +280,7 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "Microservice and Serverless.pdf"
+                    "file": "SWEN 614/lectures/Microservice and Serverless.pdf"
                   },
                   "icon": "lucide-file-text",
                   "title": "Microservice and Serverless"
@@ -292,7 +292,7 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "Cloud Observability.pdf"
+                    "file": "SWEN 614/lectures/Cloud Observability.pdf"
                   },
                   "icon": "lucide-file-text",
                   "title": "Cloud Observability"
@@ -312,15 +312,15 @@
       }
     ]
   },
-  "active": "9b4d5de3997047b1",
+  "active": "d124be27a330bc0e",
   "lastOpenFiles": [
     "SWEN 614/Deployment Models.md",
     "SWEN 614/Architecting for the Cloud.md",
     "SWEN 614/Midterm.md",
     "SWEN 614/weather pyspark hw.md",
     "SWEN 614/Observability and Monitoring.md",
-    "Cloud Observability.pdf",
-    "Microservice and Serverless.pdf",
+    "SWEN 614/lectures/Cloud Observability.pdf",
+    "SWEN 614/lectures/Microservice and Serverless.pdf",
     "SWEN 614/Microservices & Serverless Computing.md",
     "SWEN 614/lectures/Gen AI on the Cloud.pdf",
     "SWEN 614/Security and Compliance.md",

@@ -1,4 +1,4 @@
-![[Microservice and Serverless.pdf]]
+![[SWEN 614/lectures/Microservice and Serverless.pdf]]
 ## Monolithic
 - Architecture of software such that entire application is deployed all at once in a single unit.
 - designed to be self-contained where components of the program are interconnected and interdependent
