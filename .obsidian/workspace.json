@@ -13,45 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SWEN 614/Disaster Recovery & Resiliency.md",
+                "file": "SWEN 614/Data Lakes and Analytics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Disaster Recovery & Resiliency"
-            }
-          },
-          {
-            "id": "cb688aa06e05477b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SWEN 614/README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "50f1220ba62623f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SWEN 614/Security and Compliance.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Security and Compliance"
+              "title": "Data Lakes and Analytics"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,8 +54,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "(?)",
-                "matchingCase": false,
+                "query": "?",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -105,7 +75,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "f5ec134d3a44e02a",
@@ -204,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SWEN 614/Security and Compliance.md",
+                "file": "SWEN 614/Data Lakes and Analytics.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Security and Compliance"
+              "title": "Outline of Data Lakes and Analytics"
             }
           }
         ],
@@ -232,14 +203,94 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "50f1220ba62623f4",
+  "floating": {
+    "id": "c37e23f07701e668",
+    "type": "floating",
+    "children": [
+      {
+        "id": "95aeceee9d6dfec2",
+        "type": "window",
+        "children": [
+          {
+            "id": "a94e6c4c831e3e0c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "cde212ecccd3df5e",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Big Data Concepts - Spark & Streaming.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Big Data Concepts - Spark & Streaming"
+                }
+              },
+              {
+                "id": "87788def9481f1aa",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "SWEN 614/lectures/Big Data Concepts - Hadoop & Spark.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Big Data Concepts - Hadoop & Spark"
+                }
+              },
+              {
+                "id": "c44ee8ea43d271b7",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Big Data-Analytics.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Big Data-Analytics"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical",
+        "x": 1512,
+        "y": 0,
+        "width": 1920,
+        "height": 1080,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "0d3495e5cbb7c064",
   "lastOpenFiles": [
-    "SWEN 614/lectures/Security.pdf",
+    "Big Data-Analytics.pdf",
+    "SWEN 614/Data Lakes and Analytics.md",
+    "SWEN 614/lectures/Big Data Concepts - Hadoop & Spark.pdf",
+    "SWEN 614/Big Data on the Cloud.md",
+    "SWEN 614/Service models.md",
+    "Big Data Concepts - Spark & Streaming.pdf",
+    "SWEN 614/images/Pasted image 20260503202816.png",
+    "SWEN 614/Architecting for the Cloud.md",
+    "SWEN 614/lectures/Architecting for the Cloud.pdf",
+    "SWEN 614/Disaster Recovery & Resiliency.md",
+    "SWEN 614/API.md",
+    "SWEN 614/Auto-Scaling.md",
+    "SWEN 614/AWS Overview.md",
+    "SWEN 614/Databases.md",
+    "SWEN 614/Deployment Models.md",
+    "SWEN 614/Cloud Introduction.md",
+    "SWEN 614/Networking Basics.md",
+    "SWEN 614/Observability and Monitoring.md",
+    "SWEN 614/README.md",
+    "SWEN 614/DevOps & Pipelines.md",
     "SWEN 614/Security and Compliance.md",
+    "SWEN 614/lectures/Security.pdf",
     "SWEN 614/images/Pasted image 20260503165328.png",
     "SWEN 614/images/Pasted image 20260503165111.png",
-    "SWEN 614/README.md",
-    "SWEN 614/Disaster Recovery & Resiliency.md",
     "SWEN 614/lectures/Resiliency.pdf",
     "SWEN 614/images/Pasted image 20260503153211.png",
     "SWEN 614/images/Pasted image 20260415191504.png",
@@ -254,30 +305,12 @@
     "CSCI 620/lecture-5/Vertical.md",
     "SWEN 614/weather pyspark hw.md",
     "SWEN 614/Virtualization.md",
-    "CSCI 620/EXAM Description.md",
-    "HSPT 165/Pairing 11 -- Cheese x Wine.md",
-    "SWEN 614/Architecting for the Cloud.md",
-    "SWEN 614/Auto-Scaling.md",
-    "HSPT 165/Pairing 10 -- Spice x Wine.md",
-    "SWEN 614/Generative AI on the cloud.md",
     "TOC.base",
-    "HSPT 165/Wine terminologies.md",
-    "SWEN 614/Data Lakes and Analytics.md",
-    "HSPT 165/Pairing 5 -- Seafood, Veggies x Wine.md",
-    "HSPT 165/Pairing 9 -- Acidity.md",
     "SWEN 614/images/Screenshot 2026-04-06 at 18.48.08.png",
     "CSCI 620/lectures/6 - Rule mining.pdf",
     "CSCI 620/lectures/5 - Itemset mining.pdf",
-    "SWEN 614/Big Data on the Cloud.md",
-    "SWEN 614/Cloud Observability and Monitoring.md",
     "SWEN 614/images/Pasted image 20260318192420.png",
     "SWEN 614/images/Screenshot 2026-02-23 at 19.12.42.png",
-    "SWEN 614/images/Pasted image 20260223185534.png",
-    "SWEN 614/Cloud Databases.md",
-    "SWEN 614/images/Screenshot 2026-02-23 at 19.15.45.png",
-    "Microservices",
-    "SWEN 614/lectures/Virtualization.pdf",
-    "SWEN 614/lectures/Understanding Cloud Costs.pdf",
-    "SWEN 614/lectures/Service Models.pdf"
+    "SWEN 614/images/Pasted image 20260223185534.png"
   ]
 }

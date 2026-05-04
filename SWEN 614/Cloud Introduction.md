@@ -28,5 +28,5 @@ key principles of cloud computing
 
 ***IF YOU ARE NOT USING A RESOURCE, TURN IT ==OFF==***
 
-continue to [[Cloud Deployment Models]]
+continue to [[Deployment Models]]
 
