@@ -44,7 +44,7 @@
 - HIPPA
 	- series of regulatory standards that outline the lawful use and disclosure of protected health info
 - SOX
-	- Sabanes Oxley Act
+	- Sabanes Oxley Act protect from financial fraud
 	- est. rules to protect the public from fradulent or erroneous practices by corps
 - GDPR
 	- General Data Protection Regulation
@@ -161,7 +161,7 @@
 ### Encryption on AWS
 - encrypting data at rest is vital for regulatory compliance to ensure that sensitive data saved on disks is not readable by any user or application without a valid key
 - some compliance regulations such as PCI and HIPAA require that data at rest be encrypted throughout the data lifecycle
-- AWS KMS is a fully managed service taht makes it easy to create and control encryption keys on AWS can then be utilized to encrypt and decrypt data in safe manner
+- AWS KMS is a fully managed service that makes it easy to create and control encryption keys on AWS can then be utilized to encrypt and decrypt data in safe manner
 
 #### Securing Linux encrypted File System with KMS
 1. the admin uses KMS to encrypt a secret password

@@ -23,5 +23,7 @@
 20. [[Generative AI on the cloud]]
 21. [[Architecting for the Cloud]]
 
--- [[Midterm]]
--- [[weather pyspark hw]]
+Study guides and homework
+- [[Midterm]]
+- [[Final]]
+- [[weather pyspark hw]]

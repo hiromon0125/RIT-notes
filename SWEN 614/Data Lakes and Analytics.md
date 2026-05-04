@@ -1,6 +1,6 @@
 ![[SWEN 614/lectures/Big Data-Analytics.pdf]]
 
-Big Dat Analytics
+Big Data Analytics
 - searching for meaningful patterns in an ocean of data
 - why
 	- cost reduction
@@ -10,7 +10,7 @@ Big Dat Analytics
 ### Data Lake
 - Data lake is centralized repository that can store structured or not data at any scale
 - typically serves as a single source for all enterprise data, holding both raw source data and transformed data for reporting visualization, analytics, and machine learning process
-- unlike traditional databases, a Data Lake allows you to store datea as-is without predefined structure so it can be explored and used for future needs
+- unlike traditional databases, a Data Lake allows you to store date as-is without predefined structure so it can be explored and used for future needs
 - Usually holds unstructured or semi-unstructured data
 
 ## How do they work

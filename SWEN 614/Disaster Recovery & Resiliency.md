@@ -57,8 +57,6 @@ Recent outages
 	- [Pilot Light](<#Pilot Light>) for Quick recovery(active - cold backup)
 	- [Warm standby](<#Warm Standby>)
 	- [Multi-site Solution](<#Multi-site Solution>) (Active - Active)
-		- Runs two or more full instances in parallel.
-		- Most costly, but zero downtime as one can just fully absorb the requests from the other when needed
 - backup and restore
 	- Most traditional environment data is backed up to tape and sent off-site regularly
 	- S3 is an ideal destination for backup data as it provide 99.999999999% reliability
@@ -94,6 +92,7 @@ Recent outages
 - Traffic is cut to problematic AWS infrastructure by updating DNS
 - Load-balancers are also used to balance usage between sites
 - Most costly solution as double or more full production scale resource is provisioned at the same time
+- zero downtime as one can just fully absorb the requests from the other when needed
 
 ## Multi-cloud Disaster Recovery
 - Organizations are moving towards a multi-cloud solution for DR to minimize impacts from an outage occurring with a single cloud-provider
@@ -127,13 +126,13 @@ Recent outages
 ## Deployment Challenges
 - the biggest change to software development is the frequency of deployments
 - product teams deploy releases to production earlier(and more often)
-- moving to a microservices architecture makes this even more challenging\
-- Many organization will wait to deploy off hours to push the uipdates tot eh production environments
+- moving to a microservices architecture makes this even more challenging
+- Many organization will wait to deploy off hours to push the updates to the production environments
 - CI/CD helps to alleviate some these challenges
 
 ## Deployment Strategy
 
-How a new verison of the infrastructure or version of the software is deployed
+How a new verision of the infrastructure or version of the software is deployed
 
 ### Blue Green
 - two identical production environments work in parallel

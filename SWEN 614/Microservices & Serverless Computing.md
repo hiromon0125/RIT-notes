@@ -23,7 +23,7 @@
 - Alternative to Monolithic where each sections of application is a sub unit as a service.
 - modeled around a business domain
 - each of these services is responsible for discrete task and can communicate with other services through simple APIs
-- Microservices architecture enables developers to build loosely coupled services which can be developed, deployed, and smaintained independently
+- Microservices architecture enables developers to build loosely coupled services which can be developed, deployed, and maintained independently
 - Features
 	- decoupling
 	- componetization
