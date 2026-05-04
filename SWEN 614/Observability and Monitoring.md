@@ -1,6 +1,6 @@
 ![[Cloud Observability.pdf]]
 ## Why observability matters
-- What happens after you deploy your application successfully to the cloud?
+- What happens after you deploy your application successfully to the cloud
 - deployment is only the start
 - real success depends on reliability performance and user experience over time
 - without observability, teams lack the context to understand why systems fail, making root cause analysis slow and reactive

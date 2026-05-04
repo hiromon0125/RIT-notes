@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SWEN 614/Observability and Monitoring.md",
+                "file": "SWEN 614/weather pyspark hw.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Observability and Monitoring"
+              "title": "weather pyspark hw"
             }
           }
         ]
@@ -175,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SWEN 614/Observability and Monitoring.md",
+                "file": "SWEN 614/weather pyspark hw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Observability and Monitoring"
+              "title": "Outline of weather pyspark hw"
             }
           }
         ],
@@ -315,8 +315,8 @@
   },
   "active": "9b4d5de3997047b1",
   "lastOpenFiles": [
-    "Cloud Observability.pdf",
     "SWEN 614/Observability and Monitoring.md",
+    "Cloud Observability.pdf",
     "Microservice and Serverless.pdf",
     "SWEN 614/Microservices & Serverless Computing.md",
     "SWEN 614/lectures/Gen AI on the Cloud.pdf",
