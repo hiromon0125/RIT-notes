@@ -1,4 +1,3 @@
-
 # Data preparation(NOTE 4)
 ### Definition
 Data preparation consists of transforming data into a suitable format for analysis by cleaning, integrating, transforming and reducing data.
@@ -87,17 +86,17 @@ $$Var(X) = \frac{\sum x^2}{n} - \mu^2$$
 > The standard deviation is a measure that is used to quantify the amount of variation or dispersion of a set of data values. 
 # Charts
 ## Histogram
-![](CSCI%20620/conv_lectures/4%20-%20Preparation/_page_18_Figure_0.jpeg)
+![210](CSCI%20620/conv_lectures/4%20-%20Preparation/_page_18_Figure_0.jpeg)
 > A histogram is a representation of the distribution of numerical data. In SQL and MongoDB, this is just a GROUP BY clause to count occurrences. When computing mode, you must choose the one with the largest frequency.
 ## Scatter plot
-![](_page_19_Figure_0.jpeg)
+![218](_page_19_Figure_0.jpeg)
 > A scatter plot represents the relationship between two variables. 
 ## Time series
-![](CSCI%20620/conv_lectures/4%20-%20Preparation/_page_20_Figure_0.jpeg)
+![244](CSCI%20620/conv_lectures/4%20-%20Preparation/_page_20_Figure_0.jpeg)
 > A time series is similar to a scatter plot but the X-axis is related to time.
 
 ## Box and whisker
-![](CSCI%20620/conv_lectures/4%20-%20Preparation/_page_21_Figure_0.jpeg)
+![174](CSCI%20620/conv_lectures/4%20-%20Preparation/_page_21_Figure_0.jpeg)
 > A box and whisker plot—also called a box plot—displays the five-number summary of a set of data. The five-number summary is the minimum, first quartile, median, third quartile, and maximum.
 # Scaling
 
@@ -170,9 +169,9 @@ Given a set of transactions D, we wish to generate all association rules X Y tha
 - Lk: set of k-itemsets with minimum support, each of which contains the items and a count.
 - Ck: set of candidate k-itemsets, each of which contains the items and a count.
 ## Algorithm
-![[Pasted image 20260505160017.png]]
+![[Pasted image 20260505160017.png|313]]
 ## Apriori-gen (join step)
-![[Pasted image 20260505160123.png]]
+![[Pasted image 20260505160123.png|291]]
 To generate the candidates, we first perform a join step…
 ## Apriori-gen (prune step)
 - forall itemsets  $c \in C_k$ do
@@ -180,9 +179,8 @@ To generate the candidates, we first perform a join step…
 		 if  $(s \notin L_{k-1})$  then 
 			 delete c from  $C_k$;
 ## Example
-![](CSCI%20620/conv_lectures/5%20-%20Itemset%20mining/_page_11_Figure_0.jpeg)
+![236](CSCI%20620/conv_lectures/5%20-%20Itemset%20mining/_page_11_Figure_0.jpeg)
 Let's find the frequent itemsets using a minsup of 3.
-
 k=1
 - L1: ~~{Beer; 2}~~ {Bread; 6} {Butter; 5} {Diapers; 3} {Milk; 4}
 k=2
@@ -235,7 +233,7 @@ k=4
 ## New prune step
 - When computing L2, L1 does not need to be checked
 ## Lattice
-![](CSCI%20620/conv_lectures/5%20-%20Itemset%20mining/_page_21_Figure_0.jpeg)
+![234](CSCI%20620/conv_lectures/5%20-%20Itemset%20mining/_page_21_Figure_0.jpeg)
 # Conclusions
 ## Market Basket Analysis
 We have studied a technique to discover frequent itemsets that was originally devised to analyze supermarket transactions.
@@ -268,7 +266,7 @@ Cluster analysis or clustering is the task of grouping a set of objects such tha
 - We assign points to clusters
 - We reassess centroids based on current assignment
 ## Basic Idea in Action
-![](CSCI%20620/conv_lectures/6%20-%20Clustering/_page_8_Figure_0.jpeg)
+![309](CSCI%20620/conv_lectures/6%20-%20Clustering/_page_8_Figure_0.jpeg)
 Figure (a) represents the original points and (c) the clustering after random assignment and how we progress.
 ## Formal statement
 - A set of points  $x^{(1)}$ , ...,  $x^{(m)}$
@@ -336,7 +334,7 @@ def getCentroids(dataset, labels, k):
 	# that centroid's label) you should randomly re-initialize it.
 ```
 ## Example (I)
-![](CSCI%20620/conv_lectures/6%20-%20Clustering/_page_13_Figure_0.jpeg)
+![234](CSCI%20620/conv_lectures/6%20-%20Clustering/_page_13_Figure_0.jpeg)
 ## Example (II)
 - Points: (1, 2), (1, 3), (2, 3), (2, 4), (4, 6), (5, 6), (6, 6), (6, 8), (7, 7)
 - Manhattan distance: d((a, b), (x, y)) = |a x| + |b – y|
@@ -356,7 +354,7 @@ def getCentroids(dataset, labels, k):
 | 8   |        |        |         |        | 4 \| 9 |        |
 - Recomputing centroids: $\mu_{1}$ = (34/9, 45/9) = (4, 5), $\mu_{2}$ = (2, 2) (randomly reinitialized since no points were assigned to 2)
 ## Example (IV)
-![](CSCI%20620/conv_lectures/6%20-%20Clustering/_page_16_Figure_0.jpeg)
+![290](CSCI%20620/conv_lectures/6%20-%20Clustering/_page_16_Figure_0.jpeg)
 ## Example (V)
 - Centroids: $\mu_{1}$ = (4, 5), $\mu_{2}$ = (2, 2)
 - Distances ($\mu_{1}$ | $\mu_{2}$):
@@ -371,7 +369,7 @@ def getCentroids(dataset, labels, k):
 | 8   |        |        |        |        | 5 \| 10 |         |
 - Recomputing centroids: $\mu_{1}$ = (28/5, 33/5) = (6, 7), $\mu_{2}$ = (6/4, 12/4) = (1, 3)
 ## Example (VI)
-![](CSCI%20620/conv_lectures/6%20-%20Clustering/_page_18_Figure_0.jpeg)
+![284](CSCI%20620/conv_lectures/6%20-%20Clustering/_page_18_Figure_0.jpeg)
 ## Example (VII)
 - Centroids: $\mu_{1}$ = (6, 7), $\mu_{2}$ = (1, 3)
 - Distances ($\mu_{1}$ | $\mu_{2}$):
@@ -387,7 +385,7 @@ def getCentroids(dataset, labels, k):
 - Recomputing centroids: $\mu_{1}$ = (28/5, 33/5) = (6, 7), $\mu_{2}$ = (6/4, 12/4) = (1, 3); same centroids so stop
 ## Example (VIII)
 
-![](CSCI%20620/conv_lectures/6%20-%20Clustering/_page_20_Figure_0.jpeg)
+![271](CSCI%20620/conv_lectures/6%20-%20Clustering/_page_20_Figure_0.jpeg)
 # Evaluating Clusters
 Sum of squared errors
 $$SSE = \sum_{i=1}^{k} \sum_{x_j \in C_i} (x_j - \mu_i)^2$$
@@ -405,7 +403,7 @@ This is used as a method of measuring the variation within clusters.
 | 8 |   |   |   |   | 1 |   |
 • SSE =  $1^2 + 0^2 + 1^2 + 2^2 + 3^2 + 2^2 + 1^2 + 1^2 + 1^2 = 22$ 
 ## Finding a good k
-![](CSCI%20620/conv_lectures/6%20-%20Clustering/_page_24_Figure_0.jpeg)
+![229](CSCI%20620/conv_lectures/6%20-%20Clustering/_page_24_Figure_0.jpeg)
 Note that in k-means we need to provide a k (the number of clusters); however, it is unclear how many clusters we should have for a given set of points. We need to find what it is called the "knee": the region where the change is slope begins to level off.
 ## Intra- and inter-cluster distances
 - There are two criteria to assess cluster quality:
@@ -413,7 +411,7 @@ Note that in k-means we need to provide a k (the number of clusters); however, i
 	- Intracluster similarity
 - Ideally, the distance between clusters should be large, while the distance within clusters should be very small
 
-![](_page_25_Picture_5.jpeg)
+![204](_page_25_Picture_5.jpeg)
 ## Silhouette coefficient
 - For each x(i), a(x(i)) is the average distance between x(i) and all the points classified in cluster c(i) (same cluster as x(i))
 - For each x(i) and cluster c(k) (other than c(i)), let d(x(i), c(k)) the average distance between x(i) and all the points classified in c(k)
@@ -571,7 +569,7 @@ $$AMI(\mathbf{U}, \mathbf{V}) = \frac{I(\mathbf{U}, \mathbf{V}) - \mathbf{E}\{I(
 • Mean: (10 + 8 + 8 + 10 + 8 + 8 + 13 + 11 + 11)/9 = 87/9 = 9.67
 ```
 # Conclusions
-![](_page_46_Figure_0.jpeg)
+![306](_page_46_Figure_0.jpeg)
 We have studied a technique to cluster points together.
 ## Fairness in clustering
 - Group fairness for sensitive attributes (gender, ethnicity, religion…)
