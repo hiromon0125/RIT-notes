@@ -4,57 +4,81 @@
     "type": "split",
     "children": [
       {
-        "id": "caa38f9abbc12d0a",
+        "id": "75612101e5795455",
         "type": "tabs",
         "children": [
           {
-            "id": "2104faee5ec6fbcb",
+            "id": "cf91954237d0dc7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSCI 620/EXAM Description.md",
+                "file": "SWEN 614/Service models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EXAM Description"
+              "title": "Service models"
             }
           },
           {
-            "id": "3ee65b30868cffab",
+            "id": "9cc2082a67a7c4c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSCI 620/conv_lectures/7 - Rule mining/7 - Rule mining.md",
+                "file": "SWEN 614/AWS certification/AWS Exam.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7 - Rule mining"
+              "title": "AWS Exam"
+            }
+          },
+          {
+            "id": "9f94d8b1dd8e030b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SWEN 614/AWS certification/Assessment Test.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Assessment Test"
+            }
+          },
+          {
+            "id": "a0892889fb031c3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SWEN 614/AWS certification/Chapter 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 2"
+            }
+          },
+          {
+            "id": "2ee4d9c14445b73f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SWEN 614/AWS certification/Chapter 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 2"
             }
           }
         ],
-        "currentTab": 1
-      },
-      {
-        "id": "a57a6c47efff148d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6246cb6665ad7b7f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "CSCI 620/lectures/2 - Data querying.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "2 - Data querying"
-            }
-          }
-        ]
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -207,13 +231,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSCI 620/conv_lectures/7 - Rule mining/7 - Rule mining.md",
+                "file": "SWEN 614/AWS certification/Chapter 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 7 - Rule mining"
+              "title": "Outline of Chapter 2"
             }
           }
         ],
@@ -235,8 +259,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3ee65b30868cffab",
+  "active": "2ee4d9c14445b73f",
   "lastOpenFiles": [
+    "SWEN 614/AWS certification/Chapter 1.md",
+    "SWEN 614/AWS certification/Chapter 2.md",
+    "SWEN 614/AWS certification/Assessment Test.md",
+    "SWEN 614/AWS certification/AWS Exam.md",
+    "SWEN 614/Service models.md",
+    "SWEN 614/AWS certification",
+    "SWEN 614/Untitled.md",
+    "CSCI 620/conv_lectures/7 - Rule mining/7 - Rule mining.md",
     "CSCI 620/conv_lectures/3 - Document/3 - Document.md",
     "CSCI 620/Final Exam Notes.md",
     "CSCI 620/html/MongoDB Cheat Sheet (Basic to Advanced) - GeeksforGeeks.html",
@@ -244,20 +276,17 @@
     "CSCI 620/cheatsheets/Final Exam Notes.md",
     "CSCI 620/cheatsheets",
     "CSCI 620/MongoDB Cheat Sheet (Basic to Advanced) - GeeksforGeeks.html",
-    "CSCI 620/conv_lectures/7 - Rule mining/7 - Rule mining.md",
     "CSCI 620/EXAM Description.md",
     "CSCI 620/conv_lectures/6 - Clustering/6 - Clustering.md",
     "CSCI 620/conv_lectures/5 - Itemset mining/5 - Itemset mining.md",
     "CSCI 620/conv_lectures/4 - Preparation/4 - Preparation.md",
     "CSCI 620/conv_lectures/2 - Data querying/2 - Data querying.md",
-    "Untitled.md",
     "CSCI 620/conv_lectures/1 - Relational model/1 - Relational model.md",
     "CSCI 620/conv_lectures/2 - Data querying/_page_99_Figure_0.jpeg.sb-1062fecf-GdHY00",
     "CSCI 620/conv_lectures/2 - Data querying/_page_96_Figure_0.jpeg.sb-1062fecf-LJlW9C",
     "CSCI 620/conv_lectures/2 - Data querying/_page_90_Figure_0.jpeg.sb-1062fecf-uh28DG",
     "CSCI 620/conv_lectures/2 - Data querying/_page_88_Figure_0.jpeg.sb-1062fecf-9ZH82F",
     "CSCI 620/conv_lectures/2 - Data querying/_page_82_Figure_0.jpeg.sb-1062fecf-pSxtE0",
-    "CSCI 620/conv_lectures/2 - Data querying/_page_81_Figure_0.jpeg.sb-1062fecf-ZJh9rc",
     "CSCI 620/conv_lectures/2 - Data querying/Pasted image 20260505173603.png",
     "CSCI 620/conv_lectures/2 - Data querying/Pasted image 20260505171333.png",
     "CSCI 620/lecture-3/Basic Querying.md",
@@ -277,10 +306,6 @@
     "CSCI 620/conv_lectures/3_document.md",
     "CSCI 620/conv_lectures/2_data_querying.md",
     "CSCI 620/conv_lectures/1_relational_model.md",
-    "CSCI 620/lectures/7_rule_mining.md",
-    "CSCI 620/lectures/6_clustering.md",
-    "CSCI 620/lectures/5_itemset_mining.md",
-    "CSCI 620/lectures/4_preparation.md",
-    "CSCI 620/lectures/3_document.md"
+    "CSCI 620/lectures/7_rule_mining.md"
   ]
 }
