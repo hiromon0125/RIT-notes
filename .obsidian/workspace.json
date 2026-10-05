@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "75612101e5795455",
+        "id": "984d5a786a8a86f4",
         "type": "tabs",
         "children": [
           {
-            "id": "cf91954237d0dc7d",
+            "id": "32a1526bb916e8b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SWEN 614/Service models.md",
+                "file": "MS thesis/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Service models"
+              "title": "README"
             }
           }
         ]
@@ -33,7 +33,7 @@
       {
         "id": "052b4637d3b99a49",
         "type": "tabs",
-        "dimension": 60.634081902245704,
+        "dimension": 58.05739514348785,
         "children": [
           {
             "id": "d124be27a330bc0e",
@@ -80,12 +80,12 @@
         ]
       },
       {
-        "id": "f5ec134d3a44e02a",
+        "id": "2c8a3584d4a299cd",
         "type": "tabs",
-        "dimension": 39.365918097754296,
+        "dimension": 41.94260485651214,
         "children": [
           {
-            "id": "ae4f63e67b9f707f",
+            "id": "f94f765705cc1044",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -176,17 +176,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SWEN 614/AWS certification/Chapter 4.md",
+                "file": "MS thesis/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Chapter 4"
+              "title": "Outline"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -205,15 +205,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cf91954237d0dc7d",
+  "active": "d124be27a330bc0e",
   "lastOpenFiles": [
+    "MS thesis/assets/6fc4fda2.gif",
+    "MS thesis/assets",
+    "MS thesis/README.md",
+    "MS thesis",
+    "SWEN 614/Service models.md",
     "SWEN 614/AWS certification/AWS Exam.md",
     "SWEN 614/AWS certification/Assessment Test.md",
     "SWEN 614/AWS certification/Chapter 2.md",
     "SWEN 614/AWS certification/Chapter 3.md",
     "SWEN 614/AWS certification/Chapter 4.md",
     "SWEN 614/AWS certification/Chapter 1.md",
-    "SWEN 614/Service models.md",
     "SWEN 614/AWS certification",
     "SWEN 614/Untitled.md",
     "CSCI 620/conv_lectures/7 - Rule mining/7 - Rule mining.md",
@@ -233,8 +237,6 @@
     "CSCI 620/conv_lectures/2 - Data querying/_page_99_Figure_0.jpeg.sb-1062fecf-GdHY00",
     "CSCI 620/conv_lectures/2 - Data querying/_page_96_Figure_0.jpeg.sb-1062fecf-LJlW9C",
     "CSCI 620/conv_lectures/2 - Data querying/_page_90_Figure_0.jpeg.sb-1062fecf-uh28DG",
-    "CSCI 620/conv_lectures/2 - Data querying/_page_88_Figure_0.jpeg.sb-1062fecf-9ZH82F",
-    "CSCI 620/conv_lectures/2 - Data querying/_page_82_Figure_0.jpeg.sb-1062fecf-pSxtE0",
     "CSCI 620/conv_lectures/2 - Data querying/Pasted image 20260505173603.png",
     "CSCI 620/conv_lectures/2 - Data querying/Pasted image 20260505171333.png",
     "CSCI 620/lecture-3/Basic Querying.md",
@@ -250,8 +252,6 @@
     "CSCI 620/conv_lectures/7_rule_mining.md",
     "CSCI 620/conv_lectures/6_clustering.md",
     "CSCI 620/conv_lectures/5_itemset_mining.md",
-    "CSCI 620/conv_lectures/4_preparation.md",
-    "CSCI 620/conv_lectures/3_document.md",
-    "CSCI 620/conv_lectures/2_data_querying.md"
+    "CSCI 620/conv_lectures/4_preparation.md"
   ]
 }
