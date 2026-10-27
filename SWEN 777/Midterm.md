@@ -1,0 +1,41 @@
+### Concepts
+- no exhaustive testing
+	- too much effort and time and not useful
+	- must will be overlapping test cases(==equivalence class==)
+- OOP
+	- consider object state
+	- input state and dependencies
+		- must be mocked for dependencies
+- dynamic testing and static testing
+	- dynamic testing(running system)
+	- static testing
+		- is a form of defect detection without running the code
+		- code analysis
+		- architecture analysis
+		- requirements analysis
+			- could also be usability testing
+		- design review
+- non-functional and functional testing
+	- functional testing
+		- acceptance testing
+		- system testing
+	- non-functional testing
+		- security testing
+		- performance testing
+		- usability testing
+			- ease of use not whether its functioning or not
+			- this is non-functional because it can also be mock ups instead of real system
+- acceptance testing
+	- functional testing
+	- manual(human is testing it manually)
+	- evaluate requirements
+	- end 2 end
+	- bottleneck or slowown
+- system testing
+	- functional testing
+	- augmented(all tests are automated)
+	- evaluate requirements
+	- end 2 end
+	- 
+
+## Acceptance testing

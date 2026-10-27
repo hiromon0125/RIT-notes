@@ -24,6 +24,6 @@
 21. [[Architecting for the Cloud]]
 
 Study guides and homework
-- [[Midterm]]
+- [[SWEN 614/Midterm]]
 - [[Final]]
 - [[weather pyspark hw]]
