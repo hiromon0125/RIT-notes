@@ -1,5 +1,5 @@
 ### Concepts
-- no exhaustive testing
+- exhaustive testing is bad idea
 	- too much effort and time and not useful
 	- must will be overlapping test cases(==equivalence class==)
 - OOP
@@ -8,19 +8,26 @@
 		- must be mocked for dependencies
 - dynamic testing and static testing
 	- dynamic testing(running system)
-	- static testing
+	- static testing/analysis
 		- is a form of defect detection without running the code
-		- code analysis
+		- code analysis/review
 		- architecture analysis
 		- requirements analysis
 			- could also be usability testing
 		- design review
+		- linters and language servers
+			- jspecs
+			- pylance/pylint
+			- etc...
 - non-functional and functional testing
 	- functional testing
 		- acceptance testing
 		- system testing
 	- non-functional testing
 		- security testing
+			- vulnerability -> another form of defect that can be attacked/exploited
+			- exploit -> designed system that takes advantage of the vulnerability
+			- threat/hacker -> person designing the exploit
 		- performance testing
 		- usability testing
 			- ease of use not whether its functioning or not
@@ -30,12 +37,46 @@
 	- manual(human is testing it manually)
 	- evaluate requirements
 	- end 2 end
-	- bottleneck or slowown
+	- bottleneck or slowdown
+	- process of taking user-stories and creating designing test cases
 - system testing
 	- functional testing
 	- augmented(all tests are automated)
 	- evaluate requirements
 	- end 2 end
-	- 
-
-## Acceptance testing
+	- test as actor
+	- mostly black box testing
+		- except sometimes test code needs to know how the UI is structured
+		- UI in these cases are like
+			- gui/web-interface
+			- terminal CLI
+			- device/hardware
+			- voice/gesture
+			- AI?
+	- page object pattern(not on exam)
+- white and black box testing
+	- when doing white-box testing not all parameters of functions could be considered
+- boundary value analysis
+	- example
+		- function given input int x; test edge of x's range
+		- for example: if x takes 0 to 10, we test 0 and 10 and a number in between
+	- robustness testing
+		- test one more input beyond the range of input
+		- for example: if x takes 0 to 10, we test -1, 0, 10, 11 and a number in between
+	- this gets annoying in a non-floating integers
+- oracle
+	- expected outputs given sets of inputs
+	- generated manually and ==you== decide what the answer should be
+	- you are the oracle or you decide the right output, but can be in reference to external source
+	- for example:
+		- asOrdinal(), takes a number and return a string in a certain format
+- Integration testing
+	- top-down & bottom-up(not relevant to the exam)
+	- API testing
+		- treats the backend as a black box and triggers different some change via the API
+		- sometimes be black box
+		- rest api
+		- grpc
+		- graphql
+- ![[v-model.png|600]]
+- 
