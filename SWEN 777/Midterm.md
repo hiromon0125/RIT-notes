@@ -1,3 +1,12 @@
+## exam
+- MyCourses test
+- could be online
+- open notes
+- within class periods(around 50 min)
+- case studies
+- multiple choice
+- conceptual questions like below
+
 ### Concepts
 - exhaustive testing is bad idea
 	- too much effort and time and not useful
@@ -28,7 +37,18 @@
 			- vulnerability -> another form of defect that can be attacked/exploited
 			- exploit -> designed system that takes advantage of the vulnerability
 			- threat/hacker -> person designing the exploit
+			- Pen testing(not on the exam)
 		- performance testing
+			- load testing
+				- replicate normal the expected amount requests or users the system is expected to take
+				- then will be measuring how well/long the system responds
+				- Makes sure that SLA is met
+			- soak testing
+				- replicate normal the expected amount of requests or users the system is expected to take for a long duration
+			- stress testing
+				- replicate beyond the expected amount of the requests or users the system is expected to take until it breaks
+			- spike testing
+				- replicate a short duration of expected load of the system and test how well the system handles it
 		- usability testing
 			- ease of use not whether its functioning or not
 			- this is non-functional because it can also be mock ups instead of real system
@@ -79,4 +99,9 @@
 		- grpc
 		- graphql
 - ![[v-model.png|600]]
-- 
+- Quality assurance
+	- deals with 
+		- customer/product owner
+		- software process
+			- retrospective(evaluate the sprint to find improvements/pain-points from previous sprint and create action items for the next sprint)
+			- action-items should have metrics and make sure those action-items were met
